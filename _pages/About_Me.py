@@ -27,7 +27,7 @@ col1, col2 = st.columns([1, 1])
 # with col1:
 #     st.image("images/ProfileImage.jpeg", use_column_width=True, output_format='auto')
 with col1:
-    st.image("images/ProfileImage.jpeg", width=200)
+    st.image("images/ProfileImage.jpeg", width=400)
     # st.image("images/ProfileImage.jpeg", use_container_width=True)
 # Right Column: Intro with animation
 with col2:
