@@ -2,16 +2,18 @@ import streamlit as st
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+
 # Contact Section Header
 st.markdown("""
 <h2 style='text-align: center; color: #00BFFF;'>📬 Contact Me</h2>
 <p style='text-align: center; font-size:18px;'>Let's connect for collaborations, projects, or just a quick chat!</p>
 """, unsafe_allow_html=True)
 
+# Load credentials securely
 EMAIL_ADDRESS = st.secrets["EMAIL_ADDRESS"]
 EMAIL_PASSWORD = st.secrets["EMAIL_PASSWORD"]
 
-# Use Streamlit form to replicate your design
+# Use Streamlit form
 with st.form("contact_form"):
     col1, col2 = st.columns(2)
     with col1:
@@ -20,7 +22,7 @@ with st.form("contact_form"):
         email = st.text_input("Email *", "")
 
     subject = st.text_input("Subject")
-    message = st.text_area("Write your message...", height=200)
+    message = st.text_area("Write your message...", height=160)  # Reduced height by ~20%
 
     submit_button = st.form_submit_button("Send Message")
 
@@ -30,7 +32,7 @@ with st.form("contact_form"):
                 # Compose email
                 msg = MIMEMultipart()
                 msg['From'] = EMAIL_ADDRESS
-                msg['To'] = EMAIL_ADDRESS  # Send it to yourself
+                msg['To'] = EMAIL_ADDRESS  # Send to self
                 msg['Subject'] = subject if subject else "No Subject"
                 
                 body = f"""
@@ -44,7 +46,7 @@ Message:
 """
                 msg.attach(MIMEText(body, 'plain'))
 
-                # Send email
+                # Send email via SMTP
                 with smtplib.SMTP("smtp.gmail.com", 587) as server:
                     server.starttls()
                     server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
@@ -55,30 +57,23 @@ Message:
                 st.error(f"❌ Failed to send email: {e}")
         else:
             st.warning("⚠️ Please fill in all required fields (Name, Email, Message).")
-# Custom Dark Minimal Styling
+
+# ---- Custom Dark Styling ----
 st.markdown("""
 <style>
+/* Dark background for form */
 form {
   background: #121212;
-  padding: 40px;
-  border-radius: 10px;
+  padding: 40px 30px;
+  border-radius: 12px;
   max-width: 800px;
-  margin: 50px auto;
+  margin: 40px auto;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
-.row {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 25px;
-}
-
-.row-full {
-  width: 100%;
-  margin-bottom: 25px;
-}
-
+/* Input fields */
 input[type="text"], input[type="email"], textarea {
   width: 100%;
   padding: 10px 5px;
@@ -88,6 +83,7 @@ input[type="text"], input[type="email"], textarea {
   color: #fff;
   font-size: 16px;
   transition: border-color 0.3s;
+  margin-bottom: 20px;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
@@ -95,43 +91,35 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   outline: none;
 }
 
-textarea {
-  resize: vertical;
-}
-
-.submit-container {
-  text-align: left;
-}
-
+/* Submit button */
 button[type="submit"] {
-  background: #00BFFF;
+  background: linear-gradient(90deg, #00BFFF, #1E90FF);
   color: #fff;
   padding: 12px 30px;
   border: none;
-  border-radius: 25px;
+  border-radius: 30px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: transform 0.2s;
 }
 
 button[type="submit"]:hover {
-  background: #1E90FF;
+  transform: scale(1.05);
 }
 </style>
 """, unsafe_allow_html=True)
 
-# Separator Line
+# ---- Decorative Separator ----
 st.markdown("""
 <hr style="
 border: 0;
 height: 2px;
 background: linear-gradient(to right, #ff5858, #f09819);
 ">
-""" , unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
-
-# Social Media Contact Links
+# ---- Social Media Links ----
 st.markdown("""
 <h3 style='text-align: center;'>🌐 Connect With Me</h3>
 
@@ -160,13 +148,11 @@ Whether you're interested in data-driven projects, machine learning applications
 </div>
 """, unsafe_allow_html=True)
 
-
-
-st.markdown("")
+# ---- Bottom Decorative Separator ----
 st.markdown("""
 <hr style="
 border: 0;
 height: 2px;
 background: linear-gradient(to right, #ff5858, #f09819);
 ">
-""" , unsafe_allow_html=True)
+""", unsafe_allow_html=True)
