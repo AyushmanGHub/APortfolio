@@ -1,6 +1,5 @@
 streamlit
 streamlit_option_menu
 langchain_groq
-langchain.schema
 os
 datetime
