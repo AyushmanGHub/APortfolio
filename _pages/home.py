@@ -92,19 +92,31 @@ _— Ayushman_
 # Custom CSS to style chat input box
 st.markdown("""
     <style>
+    /* Outer Chat Input box container */
     div[data-testid="stChatInput"] {
-        border: 2px solid #ffa726;
-        border-radius: 8px !important;
-        background-color: #fff8e1;
-        padding: 10px;
+        border-radius: 6px !important;
+        background-color: #fff3cd !important;  /* Light yellowish (closer to your original color) */
+        border: 2px solid #ffa726 !important;
+        padding: 4px !important;
     }
+
+    /* Inner text area */
     div[data-testid="stChatInput"] textarea {
+        border-radius: 6px !important;
+        background-color: #fff3cd !important;
         border: none !important;
-        background-color: transparent;
+        padding: 10px !important;
         font-weight: 500;
         font-size: 16px;
         color: #333;
         caret-color: #333;
+        box-shadow: none !important;
+    }
+
+    /* Optional: Remove shadows when focused */
+    div[data-testid="stChatInput"] textarea:focus {
+        box-shadow: none !important;
+        outline: none !important;
     }
     </style>
 """, unsafe_allow_html=True)
