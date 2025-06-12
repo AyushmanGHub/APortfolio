@@ -89,57 +89,105 @@ You can explore my skills, projects, internships, education, certifications, ach
 _— Ayushman_
 """)
 
-
 st.markdown("""
     <style>
-    /* Outer ChatInput container */
+    /* Outer chat input box */
     div[data-testid="stChatInput"] {
-        border: 2px solid #ffa726 !important;
-        border-radius: 8px !important;
-        background-color: #fff3cd !important;
-        padding: 4px !important;
+        border: none !important;
+        border-radius: 24px !important;
+        background-color: #f7f7f8 !important;
+        padding: 6px 12px !important;
     }
 
-    /* Inner container */
+    /* Nested container inside */
     div[data-testid="stChatInput"] > div {
-        border: none !important;
-        background-color: #fff3cd !important;
-        border-radius: 8px !important;
         padding: 0px !important;
+        background-color: #f7f7f8 !important;
     }
 
-    /* Actual textarea text color fix */
-    div[data-testid="stChatInput"] textarea,
-    div[data-testid="stChatInput"] textarea::placeholder {
-        background-color: #fff3cd !important;
+    /* The textarea */
+    div[data-testid="stChatInput"] textarea {
+        background-color: #f7f7f8 !important;
         border: none !important;
-        border-radius: 8px !important;
-        padding: 4px !important;  /* reduced padding */
-        font-weight: 500;
-        font-size: 20px;
-        color: #000000 !important;          
+        border-radius: 24px !important;
+        padding: 12px 20px !important;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000 !important;
         caret-color: #000000 !important;
         box-shadow: none !important;
+        height: 40px !important;
     }
 
-    /* Placeholder text color */
+    /* Placeholder text */
     div[data-testid="stChatInput"] textarea::placeholder {
         color: #999999 !important;
     }
 
-    /* Remove focus glow */
+    /* Focus state (remove blue glow) */
     div[data-testid="stChatInput"] textarea:focus {
         box-shadow: none !important;
         outline: none !important;
     }
 
-    /* Submit button style */
+    /* Submit button (the arrow) */
     div[data-testid="stChatInput"] button {
-        border-radius: 6px !important;
+        border-radius: 24px !important;
         background-color: transparent !important;
     }
     </style>
 """, unsafe_allow_html=True)
+
+# st.markdown("""
+#     <style>
+#     /* Outer ChatInput container */
+#     div[data-testid="stChatInput"] {
+#         border: 2px solid #ffa726 !important;
+#         border-radius: 8px !important;
+#         background-color: #fff3cd !important;
+#         padding: 4px !important;
+#     }
+
+#     /* Inner container */
+#     div[data-testid="stChatInput"] > div {
+#         border: none !important;
+#         background-color: #fff3cd !important;
+#         border-radius: 8px !important;
+#         padding: 0px !important;
+#     }
+
+#     /* Actual textarea text color fix */
+#     div[data-testid="stChatInput"] textarea,
+#     div[data-testid="stChatInput"] textarea::placeholder {
+#         background-color: #fff3cd !important;
+#         border: none !important;
+#         border-radius: 8px !important;
+#         padding: 4px !important;  /* reduced padding */
+#         font-weight: 500;
+#         font-size: 20px;
+#         color: #000000 !important;          
+#         caret-color: #000000 !important;
+#         box-shadow: none !important;
+#     }
+
+#     /* Placeholder text color */
+#     div[data-testid="stChatInput"] textarea::placeholder {
+#         color: #999999 !important;
+#     }
+
+#     /* Remove focus glow */
+#     div[data-testid="stChatInput"] textarea:focus {
+#         box-shadow: none !important;
+#         outline: none !important;
+#     }
+
+#     /* Submit button style */
+#     div[data-testid="stChatInput"] button {
+#         border-radius: 6px !important;
+#         background-color: transparent !important;
+#     }
+#     </style>
+# """, unsafe_allow_html=True)
 
 
 # Initialize Session State
