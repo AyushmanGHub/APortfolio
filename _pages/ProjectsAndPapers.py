@@ -29,7 +29,7 @@ with col5A:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/portfolio_agentic.png", use_column_width=True, caption="Portfolio with ResAgent")
+        st.image(r"images/portfolio_agentic.png", use_container_width=True, caption="Portfolio with ResAgent")
 
     with upper_col2:
         st.markdown("## Streamlit Portfolio Website with Agentic AI feature")
@@ -86,7 +86,7 @@ with col5B:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/spectral_partitioning.png", use_column_width=True, caption="Graph Partitioning")
+        st.image(r"images/spectral_partitioning.png", use_container_width=True, caption="Graph Partitioning")
 
     with upper_col2:
         st.markdown("## Spectral Graph Partitioning using Fiedler's Method")
@@ -143,7 +143,7 @@ with col4A:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/credit_risk.png", use_column_width=True, caption="CreditRisk")
+        st.image(r"images/credit_risk.png", use_container_width=True, caption="CreditRisk")
 
     with upper_col2:
         st.markdown("## CreditRisk - Predicting Borrower Reliability and Risk")
@@ -187,7 +187,7 @@ with col4B:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/heartbeat_sentinel.png", use_column_width=True, caption="Heartbeat Sentinel")
+        st.image(r"images/heartbeat_sentinel.png", use_container_width=True, caption="Heartbeat Sentinel")
 
     with upper_col2:
         st.markdown("## Heartbeat Sentinel - Predicting Heart Failure")
@@ -245,7 +245,7 @@ with col2A:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/nextbuy_recommendation.png", use_column_width=True, caption="E-Commerce Recommendation")
+        st.image(r"images/nextbuy_recommendation.png", use_container_width=True, caption="E-Commerce Recommendation")
 
     with upper_col2:
         st.markdown("## NextBuy: Predicting Your Next Perfect Purchase")
@@ -290,7 +290,7 @@ with col2B:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/amsterdam_housing.png", use_column_width=True, caption="Amsterdam Housing Prices")
+        st.image(r"images/amsterdam_housing.png", use_container_width=True, caption="Amsterdam Housing Prices")
 
     with upper_col2:
         st.markdown("## Data to Dwelling - Decoding Amsterdam Housing Prices")
@@ -351,7 +351,7 @@ with col1A:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/chennai_temp_forecast.png", use_column_width=True, caption="Chennai Temperature Forecasting")
+        st.image(r"images/chennai_temp_forecast.png", use_container_width=True, caption="Chennai Temperature Forecasting")
 
     with upper_col2:
         st.markdown("## Chennai Temperature & Precipitation Forecasting")
@@ -394,7 +394,7 @@ with col1B:
         st.markdown(" ")
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/wash_inequality.png", use_column_width=True, caption="WASH Inequality")
+        st.image(r"images/wash_inequality.png", use_container_width=True, caption="WASH Inequality")
 
     with upper_col2:
         st.markdown("## Availability, Accessibility & Inequality of WASH")
