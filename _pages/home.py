@@ -92,41 +92,41 @@ _— Ayushman_
 # Custom CSS to style chat input box
 st.markdown("""
     <style>
-    /* Style for the entire Chat Input component */
+    /* Outer ChatInput container */
     div[data-testid="stChatInput"] {
         border: 2px solid #ffa726 !important;
         border-radius: 8px !important;
         background-color: #fff3cd !important;
-        padding: 4px !important;
+        padding: 6px !important;
     }
 
-    /* Style for inner input box container */
+    /* Inner container that holds the textarea and button */
     div[data-testid="stChatInput"] > div {
         border: none !important;
-        background-color: transparent !important;
-        border-radius: 0px !important;
+        background-color: #fff3cd !important;
+        border-radius: 8px !important;
         padding: 0px !important;
     }
 
-    /* Style for actual textarea */
+    /* Actual textarea */
     div[data-testid="stChatInput"] textarea {
+        background-color: #fff3cd !important;
         border: none !important;
         border-radius: 8px !important;
-        background-color: transparent !important;
-        padding: 10px !important;
-        font-size: 16px !important;
+        padding: 12px !important;
         font-weight: 500;
-        color: #333 !important;
+        font-size: 16px;
+        color: #aaaaaa !important;
         box-shadow: none !important;
     }
 
-    /* Remove focus shadow */
+    /* Remove focus glow */
     div[data-testid="stChatInput"] textarea:focus {
         box-shadow: none !important;
         outline: none !important;
     }
 
-    /* Fix the submit button */
+    /* Submit button style */
     div[data-testid="stChatInput"] button {
         border-radius: 6px !important;
         background-color: transparent !important;
