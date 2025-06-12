@@ -171,4 +171,4 @@ if user_prompt := st.chat_input("Ask me anything about Ayushman..."):
         st.markdown(response_content)
     st.session_state.messages.append({"role": "assistant", "content": response_content})
     log_conversation("assistant", response_content)
-    st.rerun()
+    # st.rerun()
