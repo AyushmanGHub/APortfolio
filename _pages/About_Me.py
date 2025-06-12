@@ -27,11 +27,13 @@ col1, col2 = st.columns([1, 1])
 # with col1:
 #     st.image("images/ProfileImage.jpeg", use_column_width=True, output_format='auto')
 with col1:
-    # Create a sub-container inside column
-    with st.container():
-        st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
+    # Divide col1 into 3 sub-columns
+    sub_col1, sub_col2, sub_col3 = st.columns([1, 2, 1])
+
+    # Place image inside center sub-column
+    with sub_col2:
         st.image("images/ProfileImage.jpeg", width=370)
-        st.markdown("</div>", unsafe_allow_html=True)
+
 
 with col2:
     st.markdown("<h3 style='font-size: 50px;'>Hi, I'm Ayushman</h3>", unsafe_allow_html=True)
