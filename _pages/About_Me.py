@@ -27,15 +27,8 @@ col1, col2 = st.columns([1, 1])
 # with col1:
 #     st.image("images/ProfileImage.jpeg", use_column_width=True, output_format='auto')
 with col1:
+    st.image("images/ProfileImage.jpeg", width=200)
     # st.image("images/ProfileImage.jpeg", use_container_width=True)
-    st.markdown(
-        f"""
-        <div style='text-align: center;'>
-            <img src='images/ProfileImage.jpeg' style='max-width:200px; width:100%; height:auto; border-radius: 10px;' />
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
 # Right Column: Intro with animation
 with col2:
     st.markdown("<h3 style='font-size: 50px;'>Hi, I'm Ayushman</h3>", unsafe_allow_html=True)
