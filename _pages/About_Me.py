@@ -28,7 +28,7 @@ col1, col2 = st.columns([1, 1])
 #     st.image("images/ProfileImage.jpeg", use_column_width=True, output_format='auto')
 with col1:
     # Divide col1 into 3 sub-columns
-    sub_col1, sub_col2, sub_col3 = st.columns([1, 2, 1])
+    sub_col1, sub_col2, sub_col3 = st.columns([1, 4, 1])
 
     # Place image inside center sub-column
     with sub_col2:
