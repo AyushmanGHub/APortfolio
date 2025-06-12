@@ -1,0 +1,173 @@
+Candidate Name is Ayushman Anupam 
+currently a Data Science Student
+
+Contact information:
+* Phone: +91 7717760813
+* Portfolio Website: https://ayushmanghub.github.io/
+* LinkedIn: https://www.linkedin.com/in/ayushman-anupam/
+* Email: ayushmantutu@gmail.com, ayushmana.mds2024@cmi.ac.in
+* GitHub: https://github.com/AyushmanGHub
+* Location: Jamshedpur, Jharkhand, India
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+Skills:
+* Transformers, AI, Large Language Models (LLM), AI Agents, Agentic AI
+* LangGraph, Vetor-store, RAG, Data Base
+* Programming Languages: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn), R, SQL, LaTeX
+* Machine Learning: Supervised & Unsupervised Learning (Regression, Classification, Clustering), Recommendation Systems
+* Deep Learning: Artificial Neural Networks (ANN), Deep Learning, Convolutional Neural Networks (CNN)
+* Tools & Platforms: Jupyter Notebook, Git, MS Office (Word, Excel, PowerPoint, PowerBI)
+* Core Competencies: Data Analysis, Predictive Modeling, Feature Engineering, Model Evaluation & Optimization, Problem Solving, Statistical Analysis, Data Visualization
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+Profile:
+I am a Data Science student with a strong passion for learning and exploration. With a background in Mathematics, I have developed a keen interest in areas such as Statistics, Probability, Graph Theory, Economics and Finance. I have worked on Machine Learning projects such as Recommender Systems, weather forecasting and Credit Risk Modeling. Additionally, I developed an R-Shiny Dashboard for analyzing Amsterdam house prices. Currently I am working as summer intern at Algo-Lab where I am working on Agentic AI.
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+Education : M.Sc in Data Science
+Chennai Mathematical Institute (2024 - Present)
+CGPA - 8.62
+Key subjects: SQL and RDBMS, Python, Data Visualization, Mathematical Analysis, Linear Algebra, DMML, Algorithm Design techniques.
+
+Education: BMaths. (Hons.)
+Indian Statistical Institute (2020 - 2024)
+Percentage - 63%
+Key subjects: Probability, Statistics, Linear Algebra, Optimization, Computer Science, Economics and Graph Theory.
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+Project: Fiedler's Theory of Spectral Graph Partitioning (April 2025)
+    * Developed a project on **Fiedler's Theory of Spectral Graph Partitioning**, a technique for dividing graphs into balanced and connected subgraphs.
+    * Implemented methods to construct the **graph Laplacian matrix**, compute the **Fiedler value**, and utilize the **Fiedler vector** for node partitioning.
+    * Focused on minimizing cut edges and maintaining balanced, connected subgraphs, demonstrating expertise in **graph theory and network analysis**.
+    * Utilized **Python, Jupyter Notebook, and LaTeX** for research, implementation, and comprehensive documentation.
+    * Project link: https://github.com/AyushmanGHub/Fiedlers-Spectral-Graph-Partitioning-Paper
+
+
+Project: CreditRisk - Predicting Borrower Reliability (Jan 2024)
+    * Developed and implemented different binary classification models to identify customers at risk of credit default and assess the associated lending risk.
+    * Evaluated each model and got accuracy of 0.97, recall and precision of 0.89 and 0.79 for defaulters and 0.98 and 0.99 for non-defaulters respectively.
+    * Did feature selection and compared weight of each feature with respect to different models to identify key features associated with credit default.
+    * Project link: https://github.com/AyushmanGHub/CreditRisk-Predicting-Borrower-Reliability
+
+
+
+Project: NextBuy - Predicting your next perfect purchase (Jan 2025)
+    * Developed a comprehensive E-commerce Recommendation System integrating both **Content-Based Filtering** and **Collaborative Filtering** to enhance user experience.
+    * Achieved strong model performance, with **Precision and Recall of 0.61** for Content-Based Filtering and a **RMSE of 1.0551** and **Precision@10 of 0.9693** for Collaborative Filtering.
+    * Conducted extensive **data processing and exploratory data analysis (EDA)** to understand user-item interactions and product characteristics.
+    * Focused on improving user experience by providing relevant product suggestions, demonstrating practical application of machine learning in e-commerce.
+    * Project link: https://github.com/AyushmanGHub/NextBuy-Predicting-your-next-perfect-purchase
+
+
+
+Project: ChurnPredict - Unlocking Subscription Insights (Apr 2024)
+    * Developed a robust customer churn prediction model for subscription-based businesses using various machine learning techniques.
+    * Implemented and optimized Logistic Regression, Random Forest, and XGBoost models, leveraging hyperparameter tuning for enhanced performance.
+    * Conducted comprehensive feature engineering from customer demographics, subscription details, and engagement metrics to build a rich dataset for prediction.
+    * Evaluated model performance using key metrics including accuracy, precision, recall, and ROC-AUC scores, ensuring the reliability of churn predictions.
+    * Utilized Pandas, Seaborn, and Matplotlib for data manipulation, analysis, and visualization, providing actionable insights for businesses to identify and retain at-risk customers.
+    * Project link: https://github.com/AyushmanGHub/ChurnPredict-Unlocking-Subscription-Insights
+
+
+Project: ClusterCart - Unveiling Customer through Data (Dec 2024)
+    * Developed a Customer Segmentation project using the K-Means clustering algorithm to identify distinct customer groups based on purchasing behavior.
+    * Performed comprehensive data analysis, cleaning, and preprocessing using Pandas to prepare customer transaction data for clustering.
+    * Applied Principal Component Analysis (PCA) for dimensionality reduction to facilitate the visualization and interpretation of customer clusters.
+    * Utilized Matplotlib, Seaborn, and Plotly to visualize customer segments and present actionable insights, enabling tailored marketing strategies and personalized recommendations.
+    * Successfully identified distinct customer groups with similar purchasing patterns, demonstrating the ability to enhance customer satisfaction and increase profitability.
+    * Project link: https://github.com/AyushmanGHub/ClusterCart-Unveiling-Customer-through-Data
+
+
+Project: Heartbeat Sentinel - Predicting Heart Failure (Nov 2024)
+    * Developed, optimized and implemented Random Forest and XGBoost models to predict heart failure risk, achieving 90% accuracy.
+    * Deployed a Streamlit app to classify heart failure risk.
+    * Performed data preprocessing, feature selection, and model evaluation using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+    * Analyzed results to identify key risk factors and early warning systems for heart disease.
+    * Project link: https://github.com/AyushmanGHub/Heartbeat-Sentinel_Decoding-and-Predicting-Heart-Failure
+    * Streamlit - App link: https://heartbeatsentineldecodingandpredictingheartfailure.streamlit.app/
+
+
+Project: From Data to Dwelling: Predicting Housing Prices (Oct 2024)
+    * Developed a predictive model for Amsterdam's housing prices, analyzing data from August 2021 to identify key influencing factors.
+    * Conducted Exploratory Data Analysis (EDA), utilizing histograms, scatter plots, and heatmaps to visualize relationships between property area, number of rooms, and geographic location with housing prices.
+    * Implemented a Simple Regression model to estimate housing prices, providing insights into the market trends.
+    * Achieved a predictive model with an R-squared ($R^2$) value of 0.80, demonstrating strong explanatory power for housing price variations.
+    * Project link: https://github.com/AyushmanGHub/From-Data-to-Dwelling-Predicting-Housing-Prices
+
+
+## Project: From Data to Dwellings: Decoding Amsterdam's Housing Prices (Oct 2024)
+    * Conducted comprehensive analysis and prediction of Amsterdam's housing price by examining key predictors such as property area, number of rooms, and geographic location.
+    * Performed Exploratory Data Analysis (EDA) to visualize trends and assess the impact of various features on housing prices, identifying strong correlations between area, room count, and price.
+    * Identified significant trends and correlations, providing insights into the factors influencing the Amsterdam real estate market.
+    * Utilized R and developed RShiny for data analysis and potentially for creating an interactive application to visualize insights.
+    * Project link: https://github.com/AyushmanGHub/From-Data-to-Dwellings-Decoding-Amsterdam-s-Housing-Prices
+    * R-Shiny App link: https://gkrujk-ayur-ayushman.shinyapps.io/Decoding-Amsterdam-House-Prices-App/
+
+
+Project: Chennai Temperature and Precipitation Forecasting (Oct 2024)
+    * Developed and implemented a time-series model for weather forecasting including average, minimum, and maximum temperatures for Chennai, achieving RMSE values of 1.21, 1.31, and 1.84, respectively.
+    * Utilized MultiOutputRegressor with LGBMRegressor for model training and evaluated performance using metrics such as MAE, MAPE, and RMSE to ensure accuracy and reliability.
+    * Project link: https://github.com/AyushmanGHub/Daily-Temperature-Prediction-of-Chennai
+
+
+Project: Availability, Accessibility and Inequality of WASH (Dec 2022)
+    * Mentor: Prof. Rituparna Sen, Indian Statistical Institute, Bangalore
+    * Conducted an in-depth analysis of inequality in access to Water, Sanitation, and Hygiene (WASH) services across six major Indian cities.
+    * Utilized Gini, Theil, and Atkinson indices to measure disparities and track improvements in WASH services.
+    * Project link: https://github.com/AyushmanGHub/Availability_Accessibility_and_Inequalities_of_WASH_in_Metro-Cities
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+Internship: AI Agent Development Intern (May 2025 - Present)
+At: Algo Labs
+* Designing and implementing a novel AI agent for task automation, focusing on leveraging advanced AI capabilities to streamline complex workflows.
+* Developing a specialized "Lecture Agent" utilizing cutting-edge tools like LangGraph for robust orchestration, RAG (Retrieval Augmented Generation) for deep contextual understanding, and API integrations for seamless data access.
+* Focused on empowering students by enabling deeper lecture comprehension, automated note generation, and personalized knowledge assessment through intelligent agent functionalities.
+* Applying principles of AI-driven content generation, knowledge retrieval, and personalized learning experiences** to create an impactful educational tool.
+
+
+Internship: Data Scientist Intern (Dec 2024)
+At: COTHON SOLUTIONS
+* Developed and deployed machine learning models to address critical business challenges in diverse domains, including customer segmentation, e-commerce recommendations, and health risk prediction.
+* Implemented customer segmentation models (e.g., K-Means clustering) to identify distinct customer groups, enabling targeted marketing strategies and personalized customer experiences.
+* Built e-commerce recommendation systems (e.g., Content-Based and Collaborative Filtering) to enhance user engagement and drive product discovery, contributing to increased sales.
+* Designed and evaluated predictive models for heart risk assessment, providing actionable insights for early identification and intervention.
+* Conducted rigorous evaluation of model methodologies, performance metrics (e.g., accuracy, precision, recall, RMSE), and derived insights to ensure model robustness and effectiveness for data-driven decision-making.
+
+
+Internship: Finance and Stock Market Internship - Trainee (Nov 2024 - Dec 2024)
+At: CAPITAL VISION INVESTMENT
+* Assisted in portfolio management, risk assessment, and equity selection, gaining hands-on experience in financial investment strategies.
+* Developed a foundation in financial markets, covering mutual funds, National Pension System (NPS), fixed deposits, and tax-efficient investment options.
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+Position of Responsibility:
+* Volunteered in Blood Donation Camp
+* Volunteering in NGO "Malakar Kalyan Samiti, Jharkhand"
+* Served as Treasurer in Interact Club, 2016-18 (School Branch of Rotary club)
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+Achievements:
+* GATE 2024 (Statistics): AIR 271
+* Indian Statistical Institute (ISI) MS QMS 2024 Entrance Exam: Rank 1
+* JEE Mains, 2020 all India Rank - 4652
+* JEE Advance, 2020 all India Rank - 7658
+
+-------------------------------------------------------------
+-------------------------------------------------------------
