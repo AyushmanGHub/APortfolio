@@ -92,11 +92,15 @@ _— Ayushman_
 # Custom CSS to style chat input box
 st.markdown("""
     <style>
-    div[data-testid="stChatInput"] textarea {
-        background-color: #fff8e1;  /* light yellow */
-        border: 2px solid #ffa726;  /* orange border */
-        border-radius: 8px;
+    div[data-testid="stChatInput"] {
+        border: 2px solid #ffa726;
+        border-radius: 8px !important;
+        background-color: #fff8e1;
         padding: 10px;
+    }
+    div[data-testid="stChatInput"] textarea {
+        border: none !important;
+        background-color: transparent;
         font-weight: 500;
         font-size: 16px;
         color: #333;
