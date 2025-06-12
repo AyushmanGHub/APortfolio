@@ -8,7 +8,7 @@ st.markdown("""
 
 # Contact Form
 contact_form = """
-<form action="https://formsubmit.co/ayushmantutu@gmail.com" method="POST" target="_blank">
+<form action="https://formsubmit.co/ 59eb841b75f0e0171db0fa95e8e8834a" method="POST" target="_blank">
   <input type="hidden" name="_captcha" value="false">
 
   <div class="row">
