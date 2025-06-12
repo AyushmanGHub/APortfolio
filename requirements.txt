@@ -1,5 +1,4 @@
 streamlit
 streamlit_option_menu
 langchain_groq
-os
 datetime
