@@ -92,31 +92,44 @@ _— Ayushman_
 # Custom CSS to style chat input box
 st.markdown("""
     <style>
-    /* Outer Chat Input box container */
+    /* Style for the entire Chat Input component */
     div[data-testid="stChatInput"] {
-        border-radius: 6px !important;
-        background-color: #fff3cd !important;  /* Light yellowish (closer to your original color) */
         border: 2px solid #ffa726 !important;
+        border-radius: 8px !important;
+        background-color: #fff3cd !important;
         padding: 4px !important;
     }
 
-    /* Inner text area */
-    div[data-testid="stChatInput"] textarea {
-        border-radius: 6px !important;
-        background-color: #fff3cd !important;
+    /* Style for inner input box container */
+    div[data-testid="stChatInput"] > div {
         border: none !important;
+        background-color: transparent !important;
+        border-radius: 0px !important;
+        padding: 0px !important;
+    }
+
+    /* Style for actual textarea */
+    div[data-testid="stChatInput"] textarea {
+        border: none !important;
+        border-radius: 8px !important;
+        background-color: transparent !important;
         padding: 10px !important;
+        font-size: 16px !important;
         font-weight: 500;
-        font-size: 16px;
-        color: #333;
-        caret-color: #333;
+        color: #333 !important;
         box-shadow: none !important;
     }
 
-    /* Optional: Remove shadows when focused */
+    /* Remove focus shadow */
     div[data-testid="stChatInput"] textarea:focus {
         box-shadow: none !important;
         outline: none !important;
+    }
+
+    /* Fix the submit button */
+    div[data-testid="stChatInput"] button {
+        border-radius: 6px !important;
+        background-color: transparent !important;
     }
     </style>
 """, unsafe_allow_html=True)
