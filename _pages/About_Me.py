@@ -27,12 +27,11 @@ col1, col2 = st.columns([1, 1])
 # with col1:
 #     st.image("images/ProfileImage.jpeg", use_column_width=True, output_format='auto')
 with col1:
-    st.markdown(
-        "<div style='display: flex; justify-content: center;'>"
-        "<img src='images/ProfileImage.jpeg' style='width: 370px; border-radius: 10px;'>"
-        "</div>",
-        unsafe_allow_html=True
-    )
+    # Create a sub-container inside column
+    with st.container():
+        st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
+        st.image("images/ProfileImage.jpeg", width=370)
+        st.markdown("</div>", unsafe_allow_html=True)
 
 with col2:
     st.markdown("<h3 style='font-size: 50px;'>Hi, I'm Ayushman</h3>", unsafe_allow_html=True)
