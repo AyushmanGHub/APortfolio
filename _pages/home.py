@@ -89,6 +89,7 @@ You can explore my skills, projects, internships, education, certifications, ach
 _— Ayushman_
 """)
 
+
 st.markdown("""
     <style>
     /* Outer ChatInput container */
@@ -113,15 +114,15 @@ st.markdown("""
         background-color: #fff3cd !important;
         border: none !important;
         border-radius: 8px !important;
-        padding: 12px !important;
+        padding: 4px !important;  /* reduced padding */
         font-weight: 500;
         font-size: 16px;
-        color: #000000 !important;          /* actual text color */
-        caret-color: #000000 !important;    /* cursor color */
+        color: #000000 !important;          
+        caret-color: #000000 !important;
         box-shadow: none !important;
     }
 
-    /* Stronger selector for placeholder color */
+    /* Placeholder text color */
     div[data-testid="stChatInput"] textarea::placeholder {
         color: #999999 !important;
     }
