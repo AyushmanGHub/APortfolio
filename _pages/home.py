@@ -7,7 +7,7 @@ import os
 # --- Load API Key from Streamlit Secrets or .env ---
 GROQ_API_KEY = st.secrets.get("groq_API_Key", os.getenv("groq_API_Key"))
 LLM_MODEL = "llama3-70b-8192"
-RESUME_FILE_PATH = os.path.join(os.path.dirname(__file__), "data\Resume_data.txt")
+RESUME_FILE_PATH = os.path.join(os.path.dirname(__file__), "data/Resume_data.txt")
 
 # --- Load Resume Data ---
 @st.cache_data
