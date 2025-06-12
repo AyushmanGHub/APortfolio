@@ -91,49 +91,48 @@ _— Ayushman_
 
 st.markdown("""
     <style>
-    /* Outer chat input box */
+    /* Outer Chat Container */
     div[data-testid="stChatInput"] {
+        background-color: #343541 !important;
         border: none !important;
-        border-radius: 24px !important;
-        background-color: #f7f7f8 !important;
-        padding: 6px 12px !important;
+        border-radius: 12px !important;
+        padding: 8px 8px !important;
     }
 
-    /* Nested container inside */
+    /* Inner Box */
     div[data-testid="stChatInput"] > div {
-        padding: 0px !important;
-        background-color: #f7f7f8 !important;
+        background-color: #343541 !important;
+        padding: 0 !important;
     }
 
-    /* The textarea */
+    /* The actual input textarea */
     div[data-testid="stChatInput"] textarea {
-        background-color: #f7f7f8 !important;
+        background-color: #40414F !important;
+        color: #FFFFFF !important;
         border: none !important;
-        border-radius: 24px !important;
-        padding: 12px 20px !important;
-        font-weight: 400;
-        font-size: 16px;
-        color: #000000 !important;
-        caret-color: #000000 !important;
+        border-radius: 12px !important;
+        padding: 12px 16px !important;
+        font-size: 16px !important;
         box-shadow: none !important;
-        height: 40px !important;
+        height: 48px !important;
     }
 
     /* Placeholder text */
     div[data-testid="stChatInput"] textarea::placeholder {
-        color: #999999 !important;
+        color: #8e8ea0 !important;
     }
 
-    /* Focus state (remove blue glow) */
+    /* Remove focus outline */
     div[data-testid="stChatInput"] textarea:focus {
-        box-shadow: none !important;
         outline: none !important;
+        box-shadow: none !important;
     }
 
-    /* Submit button (the arrow) */
+    /* Submit Button (arrow) */
     div[data-testid="stChatInput"] button {
-        border-radius: 24px !important;
         background-color: transparent !important;
+        border: none !important;
+        border-radius: 50% !important;
     }
     </style>
 """, unsafe_allow_html=True)
