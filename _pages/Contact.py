@@ -1,38 +1,59 @@
 import streamlit as st
-
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 # Contact Section Header
 st.markdown("""
 <h2 style='text-align: center; color: #00BFFF;'>📬 Contact Me</h2>
 <p style='text-align: center; font-size:18px;'>Let's connect for collaborations, projects, or just a quick chat!</p>
 """, unsafe_allow_html=True)
 
-# Contact Form
-contact_form = """
-<form action="https://formsubmit.co/"59eb841b75f0e0171db0fa95e8e8834a" method="POST">
-  <input type="hidden" name="_captcha" value="false">
 
-  <div class="row">
-    <input type="text" name="name" placeholder="Name *" required>
-    <input type="email" name="email" placeholder="Email *" required>
-  </div>
 
-  <div class="row-full">
-    <input type="text" name="subject" placeholder="Subject">
-  </div>
+# Use Streamlit form to replicate your design
+with st.form("contact_form"):
+    col1, col2 = st.columns(2)
+    with col1:
+        name = st.text_input("Name *", "")
+    with col2:
+        email = st.text_input("Email *", "")
 
-  <div class="row-full">
-    <textarea name="message" placeholder="Write your message..." rows="7" required></textarea>
-  </div>
+    subject = st.text_input("Subject")
+    message = st.text_area("Write your message...", height=200)
 
-  <div class="submit-container">
-    <button type="submit">Send Message</button>
-  </div>
-</form>
+    submit_button = st.form_submit_button("Send Message")
+
+    if submit_button:
+        if name and email and message:
+            try:
+                # Compose email
+                msg = MIMEMultipart()
+                msg['From'] = EMAIL_ADDRESS
+                msg['To'] = EMAIL_ADDRESS  # Send it to yourself
+                msg['Subject'] = subject if subject else "No Subject"
+                
+                body = f"""
+You received a new message from your contact form:
+
+Name: {name}
+Email: {email}
+Subject: {subject}
+Message:
+{message}
 """
+                msg.attach(MIMEText(body, 'plain'))
 
-# Render Form
-st.markdown(contact_form, unsafe_allow_html=True)
+                # Send email
+                with smtplib.SMTP("smtp.gmail.com", 587) as server:
+                    server.starttls()
+                    server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+                    server.send_message(msg)
 
+                st.success("✅ Your message has been sent successfully!")
+            except Exception as e:
+                st.error(f"❌ Failed to send email: {e}")
+        else:
+            st.warning("⚠️ Please fill in all required fields (Name, Email, Message).")
 # Custom Dark Minimal Styling
 st.markdown("""
 <style>
