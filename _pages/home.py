@@ -111,8 +111,8 @@ if "llm_model" not in st.session_state:
     st.session_state.llm_model = configure_llm()
 if "messages" not in st.session_state:
     st.session_state.messages = []
-if "pill_selected" not in st.session_state:
-    st.session_state.pill_selected = False
+# if "pill_selected" not in st.session_state:
+#     st.session_state.pill_selected = False
 
 # Initial Greeting
 if not st.session_state.messages:
@@ -158,7 +158,7 @@ for message in st.session_state.messages:
 
 # Handle User Input
 if user_prompt := st.chat_input("Ask me anything about Ayushman..."):
-    st.session_state.pill_selected = True
+    # st.session_state.pill_selected = True
     st.session_state.messages.append({"role": "user", "content": user_prompt})
     log_conversation("user", user_prompt)
     with st.chat_message("user"):
