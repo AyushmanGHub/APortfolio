@@ -3,5 +3,3 @@ streamlit_option_menu
 langchain_groq
 datetime
 langchain
-smtplib
-email
