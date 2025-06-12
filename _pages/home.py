@@ -97,7 +97,7 @@ st.markdown("""
         border: 2px solid #ffa726 !important;
         border-radius: 8px !important;
         background-color: #fff3cd !important;
-        padding: 6px !important;
+        padding: 4px !important;
     }
 
     /* Inner container */
