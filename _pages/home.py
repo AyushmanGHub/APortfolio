@@ -157,7 +157,8 @@ for message in st.session_state.messages:
 #         st.rerun()
 
 # Handle User Input
-if user_prompt := st.chat_input("Ask me anything about Ayushman..."):
+user_prompt = st.chat_input("Ask me anything about Ayushman...")
+if user_prompt:
     # st.session_state.pill_selected = True
     st.session_state.messages.append({"role": "user", "content": user_prompt})
     log_conversation("user", user_prompt)
