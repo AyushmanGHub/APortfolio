@@ -27,7 +27,7 @@ with col1:
     # Upper Part: Image + Name & Date
     upper_left, upper_right = st.columns([1, 2])
     with upper_left:
-        st.image(r"images/mali_kalyan.png", use_column_width=True, caption="Mali (Malakar) Kalyan Samiti")
+        st.image(r"images/mali_kalyan.png", use_container_width=True, caption="Mali (Malakar) Kalyan Samiti")
 
     with upper_right:
         st.markdown(""" 
@@ -59,7 +59,7 @@ col1, col2 = st.columns([1, 1])
 with col1:
     upper_left, upper_right = st.columns([1, 2])
     with upper_left:
-        st.image(r"images/gramin_muskan.png", use_column_width=True, caption="Gramin Muskan Seva Sansthan")
+        st.image(r"images/gramin_muskan.png", use_container_width=True, caption="Gramin Muskan Seva Sansthan")
 
     with upper_right:
         st.markdown(""" 
@@ -90,7 +90,7 @@ col1, col2 = st.columns([1, 1])
 with col1:
     upper_left, upper_right = st.columns([1, 2])
     with upper_left:
-        st.image(r"images/vbda.png", use_column_width=True, caption="Voluntary Blood Donors Association")
+        st.image(r"images/vbda.png", use_container_width=True, caption="Voluntary Blood Donors Association")
 
     with upper_right:
         st.markdown(""" 
