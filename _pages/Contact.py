@@ -8,7 +8,8 @@ st.markdown("""
 <p style='text-align: center; font-size:18px;'>Let's connect for collaborations, projects, or just a quick chat!</p>
 """, unsafe_allow_html=True)
 
-
+EMAIL_ADDRESS = st.secrets["EMAIL_ADDRESS"]
+EMAIL_PASSWORD = st.secrets["EMAIL_PASSWORD"]
 
 # Use Streamlit form to replicate your design
 with st.form("contact_form"):
