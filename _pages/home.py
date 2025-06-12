@@ -89,7 +89,6 @@ You can explore my skills, projects, internships, education, certifications, ach
 _— Ayushman_
 """)
 
-# Custom CSS to style chat input box
 st.markdown("""
     <style>
     /* Outer ChatInput container */
@@ -100,7 +99,7 @@ st.markdown("""
         padding: 6px !important;
     }
 
-    /* Inner container that holds the textarea and button */
+    /* Inner container */
     div[data-testid="stChatInput"] > div {
         border: none !important;
         background-color: #fff3cd !important;
@@ -108,16 +107,23 @@ st.markdown("""
         padding: 0px !important;
     }
 
-    /* Actual textarea */
-    div[data-testid="stChatInput"] textarea {
+    /* Actual textarea text color fix */
+    div[data-testid="stChatInput"] textarea,
+    div[data-testid="stChatInput"] textarea::placeholder {
         background-color: #fff3cd !important;
         border: none !important;
         border-radius: 8px !important;
         padding: 12px !important;
         font-weight: 500;
         font-size: 16px;
-        color: #000000 !important;
+        color: #000000 !important;          /* actual text color */
+        caret-color: #000000 !important;    /* cursor color */
         box-shadow: none !important;
+    }
+
+    /* Stronger selector for placeholder color */
+    div[data-testid="stChatInput"] textarea::placeholder {
+        color: #999999 !important;
     }
 
     /* Remove focus glow */
