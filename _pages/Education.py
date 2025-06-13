@@ -42,7 +42,7 @@ with st.container():
         Chennai, India | *(2024 - 2026)*  
         `Key Subjects:` <br>
         Python, Probability and Statistics with R, Mathematical Analysis, Data Visualization, Linear Algebra, Algorithm Design and Analysis, Data Mining and Machine Learning.
-        """,
+        """
         , unsafe_allow_html=True)
 st.markdown("---")
 
