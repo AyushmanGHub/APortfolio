@@ -63,9 +63,10 @@ with st.container():
         st.markdown("""
         **BMaths. (Hons.), Mathematics**  
         Bangalore, India | *(2020 - 2024)*  
-        #### Key Subjects: 
+        `Key Subjects:`<br> 
         Probability, Statistics, R, Graph Theory, Optimization, Economics, Linear Algebra, Design and Analysis of Algorithms, Graph and Matrices.
-        """)
+        """
+        , unsafe_allow_html=True)
 st.markdown("---")
 
 # --- Vidya Bharati Chinmaya Vidyalaya and Shiksha Niketan Side by Side ---
