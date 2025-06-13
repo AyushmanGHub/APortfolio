@@ -8,7 +8,7 @@ def get_image_base64(image_path):
     return f"data:image/png;base64,{encoded}"
 
 st.title("🎓 Education")
-st.markdown("### My academic journey and the institutes that shaped my skills & thinking.")
+st.markdown("#### My academic journey and the institutes that shaped my skills & thinking.")
 
 # Gradient separator
 st.markdown("""
@@ -40,7 +40,7 @@ with st.container():
         st.markdown("""
         **M.Sc in Data Science**  
         Chennai, India | *(2024 - 2026)*  
-        `Key Subjects:` 
+        `Key Subjects:` <br>
         Python, Probability and Statistics with R, Mathematical Analysis, Data Visualization, Linear Algebra, Algorithm Design and Analysis, Data Mining and Machine Learning.
         """)
 st.markdown("---")
