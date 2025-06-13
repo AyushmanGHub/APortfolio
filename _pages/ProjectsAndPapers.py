@@ -32,7 +32,7 @@ with col5A:
         st.image(r"images/portfolio_agentic.png", use_container_width=True, caption="Portfolio with ResAgent")
 
     with upper_col2:
-        st.markdown("## Streamlit Portfolio Website with Agentic AI feature")
+        st.markdown("### Streamlit Portfolio Website with Agentic AI feature")
         st.markdown("📅 **June 2025**")
 
         github_link = ""  # Add your repo link
@@ -89,7 +89,7 @@ with col5B:
         st.image(r"images/spectral_partitioning.png", use_container_width=True, caption="Graph Partitioning")
 
     with upper_col2:
-        st.markdown("## Spectral Graph Partitioning using Fiedler's Method")
+        st.markdown("### Spectral Graph Partitioning using Fiedler's Method")
         st.markdown("📅 **April 2025**")
 
         github_link = "https://github.com/AyushmanGHub/Fiedlers-Spectral-Graph-Partitioning-Paper"
