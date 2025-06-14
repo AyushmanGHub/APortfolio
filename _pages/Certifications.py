@@ -7,12 +7,12 @@ st.markdown("")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Specialization: Risk Management")
+    st.markdown("#### Specialization: Risk Management")
     certificate_link = "https://www.coursera.org/account/accomplishments/specialization/092Q7MA12JU5"
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -24,20 +24,20 @@ with col1:
     """, unsafe_allow_html=True)
 
 with col2:
-    st.markdown("### Specialization: Preparatory Certificate in Finance and Financial Markets")
+    st.markdown("#### Specialization: Preparatory Certificate in Finance and Financial Markets")
     github_link = "https://github.com/AyushmanGHub/Preparatory-Certificate-in-Finance-and-Financial-Markets"
     certificate_link = "https://www.coursera.org/account/accomplishments/specialization/HU4XXTZZTVRM"
     github_html = f"""
     <div style='display: inline-block; margin-right: 10px;'>
         <a href="{github_link}" target="_blank">
-            <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
         </a>
     </div>
     """
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -49,12 +49,12 @@ with col2:
     """, unsafe_allow_html=True)
 
 with col3:
-    st.markdown("### Specialization: Financial Markets")
+    st.markdown("#### Specialization: Financial Markets")
     certificate_link = "https://www.coursera.org/account/accomplishments/certificate/E3HH2L1I5SNQ"
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -69,7 +69,7 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Specialization: PyTorch Ultimate 2024 - From Basics to Cutting-Edge")
+    st.markdown("#### Specialization: PyTorch Ultimate 2024 - From Basics to Cutting-Edge")
     
     github_link = "https://github.com/AyushmanGHub/PyTorch-Ultimate-2024---From-Basics-to-Cutting-Edge-Specialization"
     certificate_link = "https://www.coursera.org/account/accomplishments/specialization/FNOET4QE7H6S"
@@ -77,7 +77,7 @@ with col1:
     github_html = f"""
     <div style='display: inline-block; margin-right: 10px;'>
         <a href="{github_link}" target="_blank">
-            <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
         </a>
     </div>
     """
@@ -85,7 +85,7 @@ with col1:
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -98,7 +98,7 @@ with col1:
     """, unsafe_allow_html=True)
 
 with col2:
-    st.markdown("### Specialization: TensorFlow Developer Professional Certificate")
+    st.markdown("#### Specialization: TensorFlow Developer Professional Certificate")
     
     github_link = "https://github.com/AyushmanGHub/DeepLearning.AI-TensorFlow-Developer-Professional-Certificate"
     certificate_link = ""  # no cert link provided
@@ -106,7 +106,7 @@ with col2:
     github_html = f"""
     <div style='display: inline-block; margin-right: 10px;'>
         <a href="{github_link}" target="_blank">
-            <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
         </a>
     </div>
     """
@@ -124,7 +124,7 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Specialization: Master Microsoft Office 365 and Power Platform")
+    st.markdown("#### Specialization: Master Microsoft Office 365 and Power Platform")
     
     github_link = "https://github.com/AyushmanGHub/Master-Microsoft-Office-365-and-Power-Platform"
     certificate_link = "https://www.coursera.org/account/accomplishments/specialization/EQBV3Y130YLW"
@@ -132,7 +132,7 @@ with col1:
     github_html = f"""
     <div style='display: inline-block; margin-right: 10px;'>
         <a href="{github_link}" target="_blank">
-            <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
         </a>
     </div>
     """
@@ -140,7 +140,7 @@ with col1:
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -160,13 +160,13 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Specialization: Machine Learning")
+    st.markdown("#### Specialization: Machine Learning")
     
     certificate_link = "https://www.coursera.org/account/accomplishments/specialization/J9HTPYMFYSYD"
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -183,13 +183,13 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Course: Cloud Computing Fundamentals")
+    st.markdown("#### Course: Cloud Computing Fundamentals")
     
     badge_link = "https://www.credly.com/badges/42990cb9-04ac-42ed-9093-45745c320733/linked_in_profile"
     badge_html = f"""
     <div style='display: inline-block;'>
         <a href="{badge_link}" target="_blank">
-            <button style='background-color:#f36f21; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Badge</button>
+            <button style='background-color:#f36f21; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Badge</button>
         </a>
     </div>
     """
@@ -206,14 +206,14 @@ col1, col2, col3 = st.columns(3)
 
 # ================= Course 1: Python for Data Science =====================
 with col1:
-    st.markdown("### Course: Python for Data Science")
+    st.markdown("#### Course: Python for Data Science")
     
     certificate_link = "https://courses.cognitiveclass.ai/certificates/570eda94251342af92f96512bf29cf54"
     
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -227,14 +227,14 @@ with col1:
 
 # ================= Course 2: Data Visualization with Python =====================
 with col2:
-    st.markdown("### Course: Data Visualization with Python")
+    st.markdown("#### Course: Data Visualization with Python")
     
     certificate_link = "https://courses.cognitiveclass.ai/certificates/ac9c90734df74fbc8fce2fdc4709116d"
     
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -248,14 +248,14 @@ with col2:
 
 # ================= Course 3: Data Analysis with Python =====================
 with col3:
-    st.markdown("### Course: Data Analysis with Python")
+    st.markdown("#### Course: Data Analysis with Python")
     
     certificate_link = "https://courses.cognitiveclass.ai/certificates/fdefea79298e4f3c98372d054487132e"
     
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -274,14 +274,14 @@ col1, col2, col3 = st.columns(3)
 
 # ================= Course 1: DSA (Udemy) =====================
 with col1:
-    st.markdown("### Course: Data Structures Algorithm DSA")
+    st.markdown("#### Course: Data Structures Algorithm DSA")
     
     certificate_link = "https://www.udemy.com/certificate/UC-43416d08-2126-4765-ab0e-fe3c43079e44/"
     
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#a435f0; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#a435f0; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -295,14 +295,14 @@ with col1:
 
 # ================= Course 2: Crash Course on Python (Google) =====================
 with col2:
-    st.markdown("### Course: Crash Course on Python")
+    st.markdown("#### Course: Crash Course on Python")
     
     certificate_link = "https://www.coursera.org/account/accomplishments/verify/3EF9B9G3C6PU"
     
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -319,7 +319,7 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Course: SQL Complete Bootcamp From Basics to Advanced")
+    st.markdown("#### Course: SQL Complete Bootcamp From Basics to Advanced")
     
     github_link = "https://github.com/AyushmanGHub/SQL-and-RDBMS"
     certificate_link = "http://udemy.com/certificate/UC-f31749b2-56a8-45ac-b068-fa762fe21603/"
@@ -327,7 +327,7 @@ with col1:
     github_html = f"""
     <div style='display: inline-block; margin-right: 10px;'>
         <a href="{github_link}" target="_blank">
-            <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
         </a>
     </div>
     """
@@ -335,7 +335,7 @@ with col1:
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#a435f0; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#a435f0; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -352,14 +352,14 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Course: Young Professional Course")
+    st.markdown("#### Course: Young Professional Course")
     
     certificate_link = "https://www.linkedin.com/in/ayushman-anupam/details/certifications/1724612065578/single-media-viewer/?profileId=ACoAADMRVUgBVbNJxN5sizRuxBO81TJZtCKoK6Q"
     
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -378,7 +378,7 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("### Specialization: Reinforcement Learning")
+    st.markdown("#### Specialization: Reinforcement Learning")
     
     github_link = "https://github.com/AyushmanGHub/Coursera_Reinforcement-Learning-Specialization"
     certificate_link = "https://www.coursera.org/account/accomplishments/specialization/9BR3UHYUV4HP"
@@ -386,7 +386,7 @@ with col1:
     github_html = f"""
     <div style='display: inline-block; margin-right: 10px;'>
         <a href="{github_link}" target="_blank">
-            <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
         </a>
     </div>
     """
@@ -394,7 +394,7 @@ with col1:
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """
@@ -409,14 +409,14 @@ with col1:
 
 
 with col2:
-    st.markdown("### Course: Game Theory")
+    st.markdown("#### Course: Game Theory")
     
     certificate_link = "https://www.coursera.org/account/accomplishments/verify/ED7J4U64XKYZ"
     
     cert_html = f"""
     <div style='display: inline-block;'>
         <a href="{certificate_link}" target="_blank">
-            <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
+            <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Certificate</button>
         </a>
     </div>
     """

@@ -31,13 +31,13 @@ with col1:
 
     with upper_right:
         st.markdown(""" 
-            ## Mali (Malakar) Kalyan Samiti
-            ### Jamshedpur, Jharkhand
+            ### Mali (Malakar) Kalyan Samiti
+            #### Jamshedpur, Jharkhand
             📅 **Dec 2020 - Present**
             """, unsafe_allow_html=True)
 
     # Lower Part: About the Organization
-    st.markdown("#### About the Organization")
+    st.markdown("##### About the Organization")
     st.markdown("""
         The Mali (Malakar) Kalyan Samiti is a registered community welfare organization based in Jamshedpur, Jharkhand, dedicated to social development, community engagement, and welfare initiatives. The organization is conducting a variety of programs such as cleanliness drives, blood donation camps, and other activities to promote social responsibility and community well-being.
     """)
@@ -63,12 +63,12 @@ with col1:
 
     with upper_right:
         st.markdown(""" 
-            ## Gramin Muskan Seva Sansthan
-            ### Jamshedpur, Jharkhand
+            ### Gramin Muskan Seva Sansthan
+            #### Jamshedpur, Jharkhand
             📅 **May 2024 – June 2024**
             """, unsafe_allow_html=True)
 
-    st.markdown("#### About the Organization")
+    st.markdown("##### About the Organization")
     st.markdown("""
         Gramin Muskan Seva Sansthan is a registered community welfare NGO with branches across India. The organization is dedicated to supporting farmers, promoting rural development, and empowering communities through education, awareness programs, and government welfare initiatives.
     """)
@@ -94,12 +94,12 @@ with col1:
 
     with upper_right:
         st.markdown(""" 
-            ## Voluntary Blood Donors Association
-            ### Jharkhand
+            ### Voluntary Blood Donors Association
+            #### Jharkhand
             📅 **June 2023**
             """, unsafe_allow_html=True)
 
-    st.markdown("#### About the Organization")
+    st.markdown("##### About the Organization")
     st.markdown("""
         The Voluntary Blood Donors Association (VBDA) is a non-governmental organization based in Jharkhand, India, dedicated to promoting voluntary blood donation. The organization conducts regular blood donation camps, organizes workshops to spread awareness, and actively works to encourage safe and regular blood donation practices within the community.
     """)

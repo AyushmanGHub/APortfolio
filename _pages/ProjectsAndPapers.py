@@ -27,8 +27,6 @@ with col5A:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/portfolio_agentic.png", use_container_width=True, caption="Portfolio with ResAgent")
 
     with upper_col2:
@@ -41,7 +39,7 @@ with col5A:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -49,7 +47,7 @@ with col5A:
         website_html = f"""
         <div style='display: inline-block;'>
             <a href="{website_link}" target="_blank">
-                <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>View Website</button>
+                <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>View Website</button>
             </a>
         </div>
         """
@@ -63,13 +61,13 @@ with col5A:
         Included dynamic project pages, certification highlights, and AI-powered blog integration.
     """)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["Python", "Streamlit", "LangGraph", "Groq LLM", "Agentic AI", "HTML", "CSS", "Groq API", "RAG"]
 
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
 
     st.markdown(badges_html, unsafe_allow_html=True)
@@ -84,8 +82,6 @@ with col5B:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/spectral_partitioning.png", use_container_width=True, caption="Graph Partitioning")
 
     with upper_col2:
@@ -98,7 +94,7 @@ with col5B:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -106,7 +102,7 @@ with col5B:
         pdf_html = f"""
         <div style='display: inline-block;'>
             <a href="{pdf_link}" target="_blank">
-                <button style='background-color:#e63946; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Report Paper</button>
+                <button style='background-color:#e63946; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Report Paper</button>
             </a>
         </div>
         """
@@ -119,12 +115,12 @@ with col5B:
         Implemented graph Laplacian matrix construction, computed the Fiedler value, and utilized the Fiedler vector for node partitioning, minimizing cut edges while maintaining graph balance.
     """)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["Python", "Jupyter Notebook", "Graph Theory", "Network Analysis", "LaTeX", "Linear Algebra"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
     st.markdown(badges_html, unsafe_allow_html=True)
  
@@ -141,12 +137,10 @@ with col4A:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/credit_risk.png", use_container_width=True, caption="CreditRisk")
 
     with upper_col2:
-        st.markdown("## CreditRisk - Predicting Borrower Reliability and Risk")
+        st.markdown("### CreditRisk - Predicting Borrower Reliability and Risk")
         st.markdown("📅 **Jan 2024**")
 
         github_link = "https://github.com/AyushmanGHub/CreditRisk-Predicting-Borrower-Reliability"
@@ -154,7 +148,7 @@ with col4A:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -168,12 +162,12 @@ with col4A:
         Performed feature selection and compared feature importance across models to identify key factors associated with credit default.
     """)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["Python", "Sklearn", "Classification Models", "Logistic Regression", "Random Forest", "Precision-Recall", "Feature Selection", "EDA"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
     st.markdown(badges_html, unsafe_allow_html=True)
 
@@ -185,12 +179,10 @@ with col4B:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/heartbeat_sentinel.png", use_container_width=True, caption="Heartbeat Sentinel")
 
     with upper_col2:
-        st.markdown("## Heartbeat Sentinel - Predicting Heart Failure")
+        st.markdown("### Heartbeat Sentinel - Predicting Heart Failure")
         st.markdown("📅 **Nov 2024**")
 
         github_link = "https://github.com/AyushmanGHub/Heartbeat-Sentinel_Decoding-and-Predicting-Heart-Failure"
@@ -199,7 +191,7 @@ with col4B:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -207,7 +199,7 @@ with col4B:
         website_html = f"""
         <div style='display: inline-block;'>
             <a href="{website_link}" target="_blank">
-                <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Streamlit App</button>
+                <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Streamlit App</button>
             </a>
         </div>
         """
@@ -222,12 +214,12 @@ with col4B:
         Analyzed results to identify key risk factors and early warning systems for heart disease.
     """)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["Python", "Streamlit", "Random Forest", "XGBoost", "ROC-AUC", "Model Evaluation", "Feature Selection", "EDA"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
     st.markdown(badges_html, unsafe_allow_html=True)
 
@@ -243,12 +235,10 @@ with col2A:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/nextbuy_recommendation.png", use_container_width=True, caption="E-Commerce Recommendation")
 
     with upper_col2:
-        st.markdown("## NextBuy: Predicting Your Next Perfect Purchase")
+        st.markdown("### NextBuy: Predicting Your Next Perfect Purchase")
         st.markdown("📅 **Jan 2025**")
 
         github_link = "https://github.com/AyushmanGHub/NextBuy-Predicting-your-next-perfect-purchase"
@@ -256,7 +246,7 @@ with col2A:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -271,12 +261,12 @@ with col2A:
         Focused on improving user experience by providing relevant product suggestions, demonstrating practical application of machine learning in e-commerce.
     """)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["Python", "EDA", "Recommender Systems", "Collaborative Filtering", "Content-Based Filtering", "Precision@10", "Machine Learning"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
     st.markdown(badges_html, unsafe_allow_html=True)
 
@@ -288,12 +278,10 @@ with col2B:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/amsterdam_housing.png", use_container_width=True, caption="Amsterdam Housing Prices")
 
     with upper_col2:
-        st.markdown("## Data to Dwelling - Decoding Amsterdam Housing Prices")
+        st.markdown("### Data to Dwelling - Decoding Amsterdam Housing Prices")
         st.markdown("📅 **Oct 2024**")
 
         github_link = "https://github.com/AyushmanGHub/From-Data-to-Dwellings-Decoding-Amsterdam-s-Housing-Prices"
@@ -302,7 +290,7 @@ with col2B:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -310,7 +298,7 @@ with col2B:
         shiny_html = f"""
         <div style='display: inline-block;'>
             <a href="{shiny_link}" target="_blank">
-                <button style='background-color:#0077b5; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>RShiny App</button>
+                <button style='background-color:#0077b5; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>RShiny App</button>
             </a>
         </div>
         """
@@ -326,12 +314,12 @@ with col2B:
     """,
     unsafe_allow_html=True)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["R", "RShiny", "EDA", "Linear Regression", "Visualization", "Data Analysis", "Statistics", "Real Estate Analytics"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
     st.markdown(badges_html, unsafe_allow_html=True)
 
@@ -349,12 +337,10 @@ with col1A:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/chennai_temp_forecast.png", use_container_width=True, caption="Chennai Temperature Forecasting")
 
     with upper_col2:
-        st.markdown("## Chennai Temperature & Precipitation Forecasting")
+        st.markdown("### Chennai Temperature & Precipitation Forecasting")
         st.markdown("📅 **Sept 2024**")
 
         github_link = "https://github.com/AyushmanGHub/Daily-Temperature-Prediction-of-Chennai"
@@ -362,7 +348,7 @@ with col1A:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -375,12 +361,12 @@ with col1A:
         Utilized MultiOutputRegressor with LGBMRegressor for model training and evaluated performance using metrics such as MAE, MAPE, and RMSE to ensure accuracy and reliability.
     """)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["Python", "Time-Series Forecasting", "LGBMRegressor", "MultiOutputRegressor", "MAE", "MAPE", "RMSE", "EDA"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
     st.markdown(badges_html, unsafe_allow_html=True)
 
@@ -392,12 +378,10 @@ with col1B:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.markdown(" ")
-        st.markdown(" ")
         st.image(r"images/wash_inequality.png", use_container_width=True, caption="WASH Inequality")
 
     with upper_col2:
-        st.markdown("## Availability, Accessibility & Inequality of WASH")
+        st.markdown("### Availability, Accessibility & Inequality of WASH")
         st.markdown("📅 **Dec 2022**")
 
         github_link = "https://github.com/AyushmanGHub/Availability_Accessibility_and_Inequalities_of_WASH_in_Metro-Cities"
@@ -406,7 +390,7 @@ with col1B:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
             </a>
         </div>
         """
@@ -414,7 +398,7 @@ with col1B:
         paper_html = f"""
         <div style='display: inline-block;'>
             <a href="{paper_link}" target="_blank">
-                <button style='background-color:#e63946; color:white; padding:8px 15px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Paper</button>
+                <button style='background-color:#e63946; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Paper</button>
             </a>
         </div>
         """
@@ -429,12 +413,12 @@ with col1B:
     """,
     unsafe_allow_html=True)
 
-    st.markdown("#### Skills & Technologies Used")
+    st.markdown("##### Skills & Technologies Used")
 
     skills = ["R", "Inequality Indices", "Gini Index", "Theil Index", "Atkinson Index", "Statistics", "Research", "Data Analysis", "Latex", "PCA", "Linear Algebra"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
-        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:5px 10px; margin:5px; border-radius:5px;'>{skill}</span>"
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
     badges_html += "</div>"
     st.markdown(badges_html, unsafe_allow_html=True)
 
