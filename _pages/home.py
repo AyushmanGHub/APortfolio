@@ -73,12 +73,12 @@ def get_groq_response(llm_model, question):
 
 # --- Streamlit App Main ---
 st.title("👨‍💼 Welcome to my Portfolio")
-st.subheader("Chat with ResAgent 🤖")
+# st.subheader("Chat with ResAgent 🤖")
 
 
 
 st.info("""
-**👋 Meet ResAgent — Your Personal AI Guide!**
+**Meet ResAgent 🤖 — Your Personal AI Guide!**
 
 Welcome to my interactive portfolio powered by ResAgent — an advanced AI assistant trained on my resume, skills, experiences, and projects.
 
