@@ -5,3 +5,7 @@ secondaryBackgroundColor = "#0D1117"
 textColor = "#FFFFFF"
 font = "sans serif"
 baseFontSize = 20
+
+
+[server]
+runOnSave = false
