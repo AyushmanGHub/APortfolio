@@ -1,0 +1,6 @@
+streamlit=1.45.1
+streamlit-pills
+streamlit-option-menu
+nest_asyncio
+google-generativeai
+
