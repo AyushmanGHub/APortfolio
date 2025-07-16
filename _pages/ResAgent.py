@@ -11,7 +11,7 @@ nest_asyncio.apply()
 # --- Configure Gemini ---
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=GEMINI_API_KEY)
-llm_model = genai.GenerativeModel(model_name="gemini-2.5-flash")
+llm_model = genai.GenerativeModel(model_name="gemini-2.5-flash-lite")
 
 # --- Load Resume Segments ---
 @st.cache_data
