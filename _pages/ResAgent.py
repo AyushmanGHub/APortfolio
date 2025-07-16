@@ -95,6 +95,7 @@ async def parallel_answer_generation(user_query, resume_segments, chat_history):
 You are ResAgent — an AI assistant.
 
 Your task is to combine the following partial answers into **a single coherent, polished, non-redundant answer**. Use bullet points and paragraphs. Do not repeat points. Ensure readability and conciseness.
+if possible limit length of final answer in less than 300 worlds.
 
 User Question:
 {user_query}
