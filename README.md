@@ -1,7 +1,7 @@
 # 🧠 **Streamlit Portfolio Website with Agentic AI Assistant**
 
-**GitHub Repository:** [APortfolio](https://github.com/AyushmanGHub/APortfolio)  
-**Live Website:** [ayushmanportfolio.streamlit.app](https://ayushmanportfolio.streamlit.app/)
+### **GitHub Repository:** [APortfolio](https://github.com/AyushmanGHub/APortfolio)  
+### **Live Website:** [ayushmanportfolio.streamlit.app](https://ayushmanportfolio.streamlit.app/)
 
 ---
 
