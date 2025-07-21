@@ -22,7 +22,7 @@ def load_resume_segments(file_path):
     segments = content.split("------------------------------------------------------------------------")
     return [seg.strip() for seg in segments if seg.strip()]
 
-resume_text_blocks = load_resume_segments("resources\Resume_data.txt")
+resume_text_blocks = load_resume_segments("resources/Resume_data.txt")
 
 # --- Load Common Questions and Answers ---
 COMMON_QUESTIONS_FILE = r"resources\common_questions.json"
