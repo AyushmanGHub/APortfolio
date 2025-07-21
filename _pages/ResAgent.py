@@ -25,7 +25,7 @@ def load_resume_segments(file_path):
 resume_text_blocks = load_resume_segments("resources/Resume_data.txt")
 
 # --- Load Common Questions and Answers ---
-COMMON_QUESTIONS_FILE = r"resources\common_questions.json"
+COMMON_QUESTIONS_FILE = "resources/common_questions.json"
 
 @st.cache_data
 def load_common_questions():
