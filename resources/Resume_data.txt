@@ -1,0 +1,549 @@
+Candidate Name is Ayushman Anupam 
+currently a Data Science Student
+
+Contact information:
+* Portfolio Website: https://ayushmanportfolio.streamlit.app/
+* LinkedIn: https://www.linkedin.com/in/ayushman-anupam/
+* Email: ayushmantutu@gmail.com, ayushmana.mds2024@cmi.ac.in
+* Phone Number: +91 7717760813
+* GitHub: https://github.com/AyushmanGHub
+* Location: Jamshedpur, Jharkhand, India
+
+----------
+
+Skills:
+* Transformers, AI, Large Language Models (LLM), AI Agents, Agentic AI
+* LangGraph, Vetor-store, RAG, Data Base
+* Programming Languages: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn), R, SQL, LaTeX
+* Machine Learning: Supervised & Unsupervised Learning (Regression, Classification, Clustering), Recommendation Systems
+* Deep Learning: Artificial Neural Networks (ANN), Deep Learning, Convolutional Neural Networks (CNN)
+* Tools & Platforms: Jupyter Notebook, Git, MS Office (Word, Excel, PowerPoint, PowerBI), Tableau, R-Shiny and Streamlit
+* Core Competencies: Data Analysis, Predictive Modeling, Feature Engineering, Model Evaluation & Optimization, Problem Solving, Statistical Analysis, Data Visualization
+
+----------
+
+Profile:
+Hi, I'm Ayushman Anupam, a Data Science student who loves working with data, solving real-world problems, and continuously exploring how mathematics, statistics, and AI can be used to make meaningful impact.
+I come from a strong Mathematics background, which helped me develop deep interests in Machine Learning, Graph Theory, Statistical Modeling, and Agentic AI. I'm particularly excited about building intelligent systems that turn data into actionable insights.
+Currently, I'm working as an AI Agent Developer Intern at Algo Labs, where I'm building smart AI agents using advanced technologies like LangGraph, RAG (Retrieval Augmented Generation), and Large Language Models (LLMs). My work focuses on improving how educational content is delivered and consumed.
+
+----------
+
+Education :
+Education degree:  M.Sc in Data Science
+Institute: Chennai Mathematical Institute 
+Duration: 2024 - Present
+CGPA - 8.62
+Key subjects: Python, Probability and Statistics with R, Mathematical Analysis, Data Visualization, Linear Algebra, Algorithm Design and Analysis, Data Mining and Machine Learning.
+
+Education: 
+Education degree: BMaths. (Hons.)
+Institute: Indian Statistical Institute (2020 - 2024)
+Percentage - 63%
+Key subjects: Probability, Statistics, R, Graph Theory, Optimization, Economics, Linear Algebra, Design and Analysis of Algorithms, Graph and Matrices.
+
+----------
+
+Internship: AI Agent Development Intern
+Institute: Algo Labs
+Duration: May 2025 - July 2025
+
+About Internship:
+Actively contributed to the design and development of **advanced AI agents**, focusing on automating complex tasks and streamlining sophisticated workflows.
+Developed a smart Agentic-AI framework that converts lecture videos into interactive learning experiences, providing a personalized chatbot, mind-map, notes and other materials for enhanced engagement and effectiveness.
+The Lecture Agent leverages **LangGraph for powerful orchestration**, **RAG (Retrieval-Augmented Generation) pipelines** for deep contextual understanding, and **integrates multiple APIs** for seamless data access and processing.
+Applied **cutting-edge AI techniques** in content generation, knowledge retrieval, and personalized learning to build intelligent educational tools that significantly enhance the student learning experience.
+The Lecture Agent empowers students with interactive lecture support, clarifies complex topics, and delivers customized feedback based on individual learning needs.
+
+Skills and Technologies Learnt
+Agentic AI, LangGraph, RAG (Retrieval Augmented Generation), Multi-Agent Systems, API Integrations, Knowledge Retrieval, AI-driven Content Generation, Task Automation, Educational Technology, Advanced Databases**
+-----
+
+Internship: Data Scientist Intern
+Institute: COTHON SOLUTIONS
+Duration: Dec 2024
+
+About Internship:
+During my internship at COTHON SOLUTIONS, I worked on multiple real-world machine learning projects aimed at solving critical business problems across various domains such as customer segmentation, e-commerce, and healthcare.
+One major challenge was to help businesses better understand their customers. To address this, I developed customer segmentation models using K-Means clustering, which successfully identified distinct customer groups based on purchasing behavior. This enabled businesses to implement more targeted marketing strategies and deliver highly personalized customer experiences.
+I also worked on building e-commerce recommendation systems utilizing both Content-Based Filtering and Collaborative Filtering approaches. These systems improved product discovery, enhanced user engagement, and contributed to increased sales by recommending the most relevant products to each user.
+In the healthcare domain, I designed predictive models for heart risk assessment, which allowed for early identification of high-risk individuals, enabling timely interventions. Throughout the internship, I ensured model robustness by performing rigorous evaluations using performance metrics such as accuracy, precision, recall, RMSE, and more, which helped deliver reliable and effective solutions for data-driven decision making.
+
+Skills and Technologies learnt:
+Python, Machine Learning, K-Means Clustering, Content-Based Filtering, Collaborative Filtering, Heart Risk Prediction, Model Evaluation (Accuracy, Precision, Recall, RMSE), Data Analysis, Business Analytics
+
+-----
+
+
+Internship: Finance and Stock Market Internship - Trainee
+Institute: CAPITAL VISION INVESTMENT
+Duration: Nov 2024 - Dec 2024
+
+About Internship:
+During my internship at CAPITAL VISION INVESTMENT, I gained practical experience in financial investment strategies, portfolio management, and equity selection. I assisted in evaluating and managing investment portfolios while assessing associated risks, helping to make informed decisions that align with client financial goals.
+Throughout the internship, I built a strong foundation in various financial instruments, including mutual funds, National Pension System (NPS), fixed deposits, and tax-efficient investment options. This experience allowed me to understand the practical aspects of financial markets, asset allocation, and wealth management strategies essential for maximizing returns while managing risks effectively.
+
+Skills and Technologies learnt:
+Portfolio Management, Risk Assessment, Equity Selection, Mutual Funds, National Pension System (NPS), Fixed Deposits, Tax-efficient Investments, Financial Markets, Wealth Management
+
+----------
+
+Volunteering at NGO:
+Mali (Malakar) Kalyan Samiti
+Jamshedpur, Jharkhand
+Dec 2020 - Present
+
+About the Organization
+The Mali (Malakar) Kalyan Samiti is a registered community welfare organization based in Jamshedpur, Jharkhand, dedicated to social development, community engagement, and welfare initiatives. The organization is conducting a variety of programs such as cleanliness drives, blood donation camps, and other activities to promote social responsibility and community well-being.
+
+Active Member - Social Service Worker
+Actively participating in cleanliness programs to promote environmental hygiene and raise awareness about public sanitation.
+Assisting in organizing blood donation camps, managing donor coordination, and encouraging voluntary blood donation.
+Contributing to multiple social welfare initiatives, supporting the organization's mission to uplift and serve the local community.
+
+-----
+
+Volunteering at NGO: 
+Gramin Muskan Seva Sansthan 
+Jamshedpur, Jharkhand
+May 2024 – June 2024
+
+About the Organization
+Gramin Muskan Seva Sansthan is a registered community welfare NGO with branches across India. The organization is dedicated to supporting farmers, promoting rural development, and empowering communities through education, awareness programs, and government welfare initiatives.
+
+Volunteer - Social Service Worker
+Conducted computer literacy sessions for students in rural areas, helping them develop basic digital skills and increase technology awareness.
+Assisted in organizing workshops and training programs for farmers to educate them about government schemes, modern agricultural techniques, and available support resources.
+Coordinated with government officials to facilitate the implementation of rural development projects, including solar-powered water pumps and solar street lighting.
+Participated in cleanliness and sanitation drives to promote hygiene and address key community issues.
+
+-----
+
+Volunteering at NGO:
+Voluntary Blood Donors Association
+Jharkhand
+June 2023
+
+About the Organization
+The Voluntary Blood Donors Association (VBDA) is a non-governmental organization based in Jharkhand, India, dedicated to promoting voluntary blood donation. The organization conducts regular blood donation camps, organizes workshops to spread awareness, and actively works to encourage safe and regular blood donation practices within the community.
+
+Volunteer
+Volunteered at blood donation camps organized by the NGO, assisting with coordination, registration, and donor support.
+Participated in awareness programs across multiple educational institutes to promote the importance of voluntary blood donation and educate individuals on the process and benefits of donating blood.
+Engaged in bloodcare initiatives, focusing on creating a sustainable blood donation ecosystem by motivating first-time donors, following up with regular donors, and supporting emergency donation drives.
+
+----------
+
+Achievements:
+* GATE 2024 (Statistics): AIR 271
+* Indian Statistical Institute (ISI) MS QMS 2024 Entrance Exam: Rank 1
+* JEE Mains, 2020 all India Rank - 4652
+* JEE Advance, 2020 all India Rank - 7658
+
+------------------------------------------------------------------------
+
+Project : "Streamlit Portfolio Website with Agentic AI Assistant"
+Date: June 2025
+
+About project:
+The goal was to build a personal portfolio website that goes beyond static content by integrating an AI-powered assistant directly into the website. The problem was that typical portfolio sites often only showcase projects but don't allow interaction, live information fetching, or AI-powered query answering.
+The solution was a fully responsive Streamlit-based portfolio website that includes ResAgent — an Agentic AI assistant. ResAgent uses large language models (LLMs) to answer user queries, fetch recent data (like news or external information), and carry on interactive conversations directly on the portfolio site. The portfolio also features dynamically generated project pages, certification highlights, and AI-powered blog integration that makes it much more interactive and informative for visitors.
+
+Skills and Technologies used:
+Python, Streamlit, LangGraph, Groq LLM, Agentic AI, HTML, CSS, Groq API
+
+Github Links: https://github.com/AyushmanGHub/APortfolio
+Website Link: https://ayushmanportfolio.streamlit.app/
+
+-----
+
+Project : "Fiedler's Theory of Spectral Graph Partitioning"
+Date: April 2025
+
+About project:
+The project addressed the problem of how to partition a graph into smaller, balanced, and well-connected subgraphs while minimizing the number of edges that get cut. This is a common challenge in areas like network design, load balancing, and parallel computing.
+The solution implemented Fiedler's Theory of Spectral Graph Partitioning, which uses the spectral properties of the graph's Laplacian matrix. Specifically, it involved constructing the graph Laplacian, computing the Fiedler value (second smallest eigenvalue), and using the Fiedler vector (corresponding eigenvector) to determine optimal partitions. The project successfully demonstrated how these mathematical techniques can effectively minimize cut edges while ensuring balanced partitions.
+The entire work was implemented, documented, and presented using Python, Jupyter Notebook, and LaTeX, showcasing both theoretical understanding and practical application in graph theory and network analysis.
+
+Skills and Technologies used:
+Python, Jupyter Notebook, LaTeX, Graph Theory, Spectral Graph Partitioning, Network Analysis
+
+Github Links: https://github.com/AyushmanGHub/Fiedlers-Spectral-Graph-Partitioning-Paper
+Paper Link: https://drive.google.com/file/d/1JJtpv_99XfyESqNQr_QpuK5iCuthB9SW/edit
+
+-----
+
+
+Project : "CreditRisk - Predicting Borrower Reliability"
+Date: March 2025
+
+About project:
+The project focused on solving the problem of identifying customers who are at risk of defaulting on their loans, which is a critical task for financial institutions to minimize lending risks and maintain profitability.
+The solution involved developing and implementing multiple binary classification models to predict credit defaults. The models were thoroughly evaluated, achieving an accuracy of 0.97. For defaulters, the recall and precision were 0.89 and 0.79 respectively, and for non-defaulters, they were 0.98 and 0.99 respectively. In addition, feature selection techniques were applied to analyze the influence of various features on the prediction outcomes, helping identify the most significant factors contributing to credit risk.
+
+Skills and Technologies used:
+Python, Machine Learning, Binary Classification, Feature Selection, Model Evaluation, Risk Assessment
+
+Github Links: https://github.com/AyushmanGHub/CreditRisk-Predicting-Borrower-Reliability
+
+-----
+
+Project : "NextBuy - Predicting your next perfect purchase"
+Date: January 2025
+
+About project:
+The project aimed to tackle the problem of delivering accurate and personalized product recommendations to e-commerce users — a key factor in improving customer satisfaction and increasing sales.
+The solution was a comprehensive recommendation system that combines both Content-Based Filtering (which uses product features and user preferences) and Collaborative Filtering (which uses user-item interaction patterns). Through extensive data processing and exploratory data analysis (EDA), user-item interactions and product characteristics were deeply understood to optimize the recommendation algorithms. The models achieved solid performance: Precision and Recall of 0.61 for Content-Based Filtering, and for Collaborative Filtering, an RMSE of 1.0551 and Precision@10 of 0.9693. This system demonstrated the practical application of machine learning to enhance user experience in e-commerce platforms by offering highly relevant product suggestions.
+
+Skills and Technologies used:
+Python, Machine Learning, Content-Based Filtering, Collaborative Filtering, Recommender Systems, Data Processing, EDA
+
+Github Links: https://github.com/AyushmanGHub/NextBuy-Predicting-your-next-perfect-purchase
+
+
+-----
+
+Project : "ChurnPredict - Unlocking Subscription Insights"
+Date: December 2024
+
+About project:
+The project focused on solving the critical problem faced by subscription-based businesses: predicting customer churn. Identifying which customers are likely to unsubscribe allows businesses to take proactive steps to retain them, thereby reducing revenue loss.
+The solution involved building a robust churn prediction model using multiple machine learning algorithms, including Logistic Regression, Random Forest, and XGBoost. Comprehensive feature engineering was performed by extracting meaningful features from customer demographics, subscription details, and engagement metrics, resulting in a highly informative dataset. Hyperparameter tuning was applied to optimize the models for better predictive performance. The models were evaluated using key metrics like accuracy, precision, recall, and ROC-AUC to ensure their reliability in predicting churn. Furthermore, data manipulation, analysis, and visualizations were carried out using Pandas, Seaborn, and Matplotlib to generate actionable business insights.
+
+Skills and Technologies used:
+Python, Machine Learning, Logistic Regression, Random Forest, XGBoost, Pandas, Seaborn, Matplotlib, Feature Engineering, Model Evaluation
+
+Github Links: https://github.com/AyushmanGHub/ChurnPredict-Unlocking-Subscription-Insights
+
+-----
+
+Project : "ClusterCart - Unveiling Customer through Data"
+Date: December 2024
+
+About project:
+The project addressed the challenge of understanding customer diversity in purchasing behavior, which is essential for businesses aiming to create targeted marketing strategies and personalized customer experiences.
+The solution involved developing a customer segmentation system using the K-Means clustering algorithm to identify distinct customer groups based on transaction data. Comprehensive data analysis, cleaning, and preprocessing were performed using Pandas to ensure high-quality data for modeling. Principal Component Analysis (PCA) was applied to reduce the dimensionality of the data, making the resulting customer clusters easier to visualize and interpret. Advanced visualizations were created using Matplotlib, Seaborn, and Plotly, allowing for clear identification of different customer segments and actionable business insights. The segmentation enabled businesses to tailor their marketing and recommendation strategies, ultimately enhancing customer satisfaction and driving profitability.
+
+Skills and Technologies used:
+Python, K-Means Clustering, PCA, Pandas, Data Preprocessing, Matplotlib, Seaborn, Plotly, Customer Segmentation
+
+Github Links: https://github.com/AyushmanGHub/ClusterCart-Unveiling-Customer-through-Data
+
+-----
+
+Project : "Heartbeat Sentinel - Predicting Heart Failure"
+Date: November 2024
+
+About project:
+The project tackled the critical problem of early prediction and prevention of heart failure, which can significantly improve patient outcomes and reduce healthcare costs.
+The solution involved developing, optimizing, and implementing machine learning models — specifically Random Forest and XGBoost — to predict the risk of heart failure with 90% accuracy. The entire pipeline included comprehensive data preprocessing, feature selection, and model evaluation using performance metrics like accuracy, precision, recall, F1-score, and ROC-AUC. The project also included detailed analysis to identify key risk factors that contribute to heart disease, enabling early warning and targeted intervention. To make the solution easily accessible, a Streamlit-based web application was developed and deployed, allowing users to input patient data and instantly classify heart failure risk.
+
+Skills and Technologies used:
+Python, Random Forest, XGBoost, Streamlit, Machine Learning, Feature Engineering, Model Evaluation, ROC-AUC, Healthcare Analytics
+
+Github Links: https://github.com/AyushmanGHub/Heartbeat-Sentinel_Decoding-and-Predicting-Heart-Failure
+Streamlit App Link: https://heartbeatsentineldecodingandpredictingheartfailure.streamlit.app/
+
+-----
+
+Project : "From Data to Dwellings: Decoding Amsterdam's Housing Prices"
+Date: October 2024
+
+About project:
+The project focused on analyzing and predicting housing prices in Amsterdam, a market influenced by various property and geographic factors. The problem was to understand which features most strongly impact property prices and generate actionable insights for buyers, sellers, and policymakers.
+The solution involved performing a comprehensive analysis using property area, number of rooms, and geographic location as key predictors. Exploratory Data Analysis (EDA) was carried out to visualize trends and quantify the relationship between various features and housing prices. The analysis revealed strong correlations, particularly between area size, room count, and property price. R was used extensively for data analysis, and an interactive RShiny application was developed to visualize the insights, making the findings easily accessible and interpretable for users.
+
+Skills and Technologies used:
+R, RShiny, Data Analysis, EDA, Correlation Analysis, Housing Market Prediction, Visualization
+
+Github Links: https://github.com/AyushmanGHub/From-Data-to-Dwellings-Decoding-Amsterdam-s-Housing-Prices
+R-Shiny App Link: https://gkrujk-ayur-ayushman.shinyapps.io/Decoding-Amsterdam-House-Prices-App/
+
+-----
+
+Project : "Chennai Temperature and Precipitation Forecasting"
+Date: October 2024
+
+About project:
+The project aimed to accurately forecast weather patterns in Chennai by predicting average, minimum, and maximum temperatures — crucial information for agriculture, public planning, and general daily activities.
+The solution involved developing a time-series forecasting model using MultiOutputRegressor combined with LGBMRegressor to predict multiple temperature targets simultaneously. The model was trained and evaluated using robust performance metrics such as MAE (Mean Absolute Error), MAPE (Mean Absolute Percentage Error), and RMSE (Root Mean Squared Error), achieving RMSE values of 1.21 for average temperature, 1.31 for minimum temperature, and 1.84 for maximum temperature. This high level of accuracy ensured the reliability and practical utility of the forecasts.
+
+Skills and Technologies used:
+Python, Time-Series Forecasting, MultiOutputRegressor, LGBMRegressor, MAE, MAPE, RMSE, Machine Learning
+
+Github Links: https://github.com/AyushmanGHub/Daily-Temperature-Prediction-of-Chennai
+
+-----
+
+Project : "Availability, Accessibility and Inequality of WASH"
+Date: December 2022
+
+About project:
+Under the mentorship of Prof. Rituparna Sen at Indian Statistical Institute, Bangalore, the project addressed the critical issue of inequality in access to Water, Sanitation, and Hygiene (WASH) services across six major Indian metro cities. The lack of equitable WASH services significantly affects public health, social well-being, and urban development.
+The solution involved conducting an in-depth statistical analysis to quantify disparities in WASH services using inequality measurement indices such as Gini, Theil, and Atkinson. These indices allowed for a nuanced understanding of both the availability and accessibility of WASH services, as well as the degree of inequality present across different population segments. The findings provided valuable insights into where interventions are most needed to improve equality in essential services.
+
+Skills and Technologies used:
+Statistics, Inequality Indices (Gini, Theil, Atkinson), Data Analysis, Public Health Analytics
+
+Github Links: https://github.com/AyushmanGHub/Availability_Accessibility_and_Inequalities_of_WASH_in_Metro-Cities
+Paper Link: https://drive.google.com/file/d/1pfVu68jwAGkJZDnyAtd4bdaJkukxAP7l/view
+
+------------------------------------------------------------------------
+
+
+Specialization: Risk Management Specialization
+Institute name: New York Institute of Finance (via Coursera)
+
+Courses in specialization: 4 courses
+1. Introduction to Risk Management
+2. Credit Risk Management
+3. Operational Risk Management
+4. Market Risk Management
+
+About Specialization/Course:
+A 4-course program designed to teach you how to measure, assess, and manage different types of financial and operational risk. It begins with an introduction to risk concepts, then dives into Credit Risk, Market Risk, and Operational Risk frameworks. Students learn through hands-on projects, including estimating and analyzing risks in a diversified equity portfolio using two years of historical market data.
+
+Skills and Technologies learnt: 
+Risk identification, measurement techniques, risk frameworks and mitigation strategies, statistical analysis, Excel-based risk modeling.
+
+Course Link: https://www.coursera.org/account/accomplishments/specialization/092Q7MA12JU5
+
+-----
+
+Specialization: Preparatory Certificate in Finance and Financial Markets
+Institute name: Corporate Finance Institute (via Coursera)
+
+Courses in specialization: 10 courses
+1. Financial Math
+2. Accounting Fundamentals
+3. Reading Financial Statements
+4. Corporate Finance Fundamentals
+5. Introduction to Corporate Banking
+6. Capital Markets Fundamentals
+7. Introduction to Credit
+8. Introduction to Risk Management
+9. Introduction to ESG
+10 Ethics for Finance Professionals
+
+About Specialization/Course:
+An extensive preparatory program covering core topics in finance: corporate finance, accounting, financial statements, capital markets, banking, credit, risk management, and ESG fundamentals. Aimed to build a strong foundation in financial principles and markets for finance professionals and students.
+
+Skills and Technologies learnt: 
+Corporate finance, accounting, statement analysis, banking principles, credit risk, ESG basics.
+
+Course Link: https://www.coursera.org/account/accomplishments/specialization/HU4XXTZZTVRM
+GitHub link: https://github.com/AyushmanGHub/Preparatory-Certificate-in-Finance-and-Financial-Markets
+
+-----
+
+Specialization: PyTorch Ultimate 2024 – From Basics to Cutting‑Edge
+Institute name: Packt (via Coursera)
+
+Courses in specialization: 3 courses
+1. PyTorch for Deep Learning: Regression, CNNs & GANs
+2. Advanced PyTorch: NLP, Transformers & Recommendation Systems
+3. PyTorch Deployment: Flask, Google Cloud & Advanced Projects
+
+About Specialization/Course:
+A comprehensive PyTorch-driven deep learning specialization covering foundational and advanced deep learning concepts. The specialization includes building and training models for regression, computer vision (CNNs), generative models (GANs), natural language processing (NLP), recommendation systems, graph neural networks (GNNs), and autoencoders. Additionally, it covers deployment using Flask and Google Cloud to bring AI models into production environments.
+
+Skills and Technologies learnt:
+PyTorch, neural networks, CNNs, GANs, RNNs/LSTM, NLP, GNNs, autoencoders, model evaluation, Flask, deployment, Google Cloud.
+
+Course Link: https://www.coursera.org/account/accomplishments/specialization/FNOET4QE7H6S
+GitHub link: https://github.com/AyushmanGHub/PyTorch-Ultimate-2024---From-Basics-to-Cutting-Edge-Specialization
+
+-----
+
+Specialization: TensorFlow Developer Professional Certificate
+Institute name: DeepLearning.AI (via Coursera)
+
+Courses in specialization: 4 courses
+1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+2. Convolutional Neural Networks in TensorFlow
+3. Natural Language Processing in TensorFlow
+4. Sequences, Time Series and Prediction
+
+About Specialization/Course:
+A professional certificate program focusing on developing scalable AI apps using TensorFlow. Covers building neural networks, CNNs, NLP models, and time-series forecasting with hands-on Python projects.
+
+Skills and Technologies learnt: 
+TensorFlow, neural networks, CNNs, sequence models, time series, scalable AI application development.
+
+GitHub link: https://github.com/AyushmanGHub/DeepLearning.AI-TensorFlow-Developer-Professional-Certificate
+
+
+-----
+
+Specialization: Master Microsoft Office 365 and Power Platform
+Institute name: Microsoft (via Coursera)
+Courses in specialization: 8 courses
+
+Courses Name:
+1. Work Smarter with Microsoft Word
+2. Work Smarter with Microsoft Excel
+3. Work Smarter with Microsoft PowerPoint
+4. Introduction to Microsoft 365 Copilot
+5. Introduction to Microsoft Power Platform
+6. Use Power Platform for Custom and Automated Solutions
+7. Power BI & Power Virtual Agents
+8. The PL-900 Practice Exam
+
+About Specialization/Course:
+A specialization covering advanced usage of Word, Excel, PowerPoint, and Power Platform tools (Power Apps, Power BI, Power Automate, Power Virtual Agents) to build business solutions.
+
+Skills and Technologies learnt: 
+Word, Excel, PowerPoint, Microsoft 365 Copilot, Power Apps, Power BI, Power Automate, Power Virtual Agents.
+
+Course Link: https://www.coursera.org/account/accomplishments/specialization/EQBV3Y130YLW
+GitHub link: https://github.com/AyushmanGHub/Master-Microsoft-Office-365-and-Power-Platform
+
+-----
+
+Specialization: Machine Learning
+Institute name: DeepLearning.AI & Stanford University (via Coursera)
+Courses in specialization: 3 courses
+
+Courses Name:
+1. Supervised Machine Learning: Regression and Classification
+2. Advanced Learning Algorithms
+3. Unsupervised Learning, Recommenders, Reinforcement Learning
+
+About Specialization/Course:
+A foundational machine learning program taught by Andrew Ng covering supervised & unsupervised learning, decision trees, neural networks, recommender systems, and an introduction to reinforcement learning across three core courses.
+
+Skills and Technologies learnt: 
+Supervised learning, unsupervised learning, decision trees, neural networks, recommender systems, reinforcement learning.
+
+Course Link: https://www.coursera.org/account/accomplishments/specialization/J9HTPYMFYSYD
+
+-----
+
+Course name: Python for Data Science
+Institute name: IBM Developer Skills network
+
+About Course:
+An introductory course to Python programming focused on data analysis using NumPy, Pandas, and Matplotlib.
+
+Skills and Technologies learnt: 
+Python, data manipulation, NumPy, Pandas, Matplotlib.
+
+Course Link: https://courses.cognitiveclass.ai/certificates/570eda94251342af92f96512bf29cf54
+
+-----
+
+Course name: Data Visualization with Python
+Institute name: IBM Developer Skills Network
+
+About Course:
+A course on creating advanced data visualizations with Python libraries like Matplotlib, Seaborn, and Folium, including dashboards for data storytelling.
+
+Skills and Technologies learnt: 
+Data visualization, Matplotlib, Seaborn, Folium, dashboard creation.
+
+Course Link: https://courses.cognitiveclass.ai/certificates/ac9c90734df74fbc8fce2fdc4709116d
+
+-----
+
+Course name: Data Analysis with Python
+Institute name: IBM Developer Skills Network
+
+About Course:
+A comprehensive course on data manipulation, cleaning, statistical analysis, regression, and hypothesis testing using Python and Pandas.
+
+Skills and Technologies learnt: 
+Data cleaning, statistical analysis, regression, hypothesis testing, Pandas.
+
+Course Link: https://courses.cognitiveclass.ai/certificates/fdefea79298e4f3c98372d054487132e
+
+-----
+
+Course name: Data Structures Algorithm (DSA)
+Institute name: Udemy
+
+About Course:
+A comprehensive course on core data structures and algorithms—covering arrays, linked lists, stacks, queues, trees, graphs, sorting and searching algorithms, and problem-solving techniques.
+
+Skills and Technologies learnt: 
+Data structures, algorithms, recursion, problem solving, tree and graph traversal.
+
+Course Link: https://www.udemy.com/certificate/UC-43416d08-2126-4765-ab0e-fe3c43079e44/
+
+-----
+
+Course name: Crash Course on Python
+Institute name: Google (via Coursera)
+
+About Course:
+A beginner-friendly Python course covering variables, functions, loops, strings, lists, dictionaries, error handling, object-oriented programming, and file operations.
+
+Skills and Technologies learnt: 
+Python basics, control flow, OOP, file handling, data structures.
+
+Course Link: https://www.coursera.org/account/accomplishments/verify/3EF9B9G3C6PU
+
+-----
+
+Course name: SQL Complete Bootcamp – From Basics to Advanced
+Institute name: Udemy
+
+About Course:
+An extensive SQL bootcamp covering relational databases, complex queries, joins, aggregations, subqueries, transactions, stored procedures, and query optimization.
+
+Skills and Technologies learnt: 
+SQL, RDBMS, joins, indexing, transactions, stored procedures, query optimization.
+
+Course Link: http://udemy.com/certificate/UC-f31749b2-56a8-45ac-b068-fa762fe21603/
+GitHub link: https://github.com/AyushmanGHub/SQL-and-RDBMS
+
+-----
+
+Course name: Young Professional Course
+Institute name: TCS iON Career Edge
+
+About Course:
+A professional development course focusing on business etiquette, communication, interview prep, resume building, corporate ethics, and workplace readiness.
+
+Skills and Technologies learnt: 
+Soft skills, communication, career readiness, corporate protocols.
+
+Course Link: https://www.linkedin.com/in/ayushman-anupam/details/certifications/1724612065578/single-media-viewer/?profileId=ACoAADMRVUgBVbNJxN5sizRuxBO81TJZtCKoK6Q
+
+-----
+
+Specialization: Reinforcement Learning Specialization
+Institute name: University of Alberta (via Coursera)
+
+Courses in specialization: 4 courses
+1. Fundamentals of Reinforcement Learning
+2. Sample-based Learning Methods
+3. Prediction and Control with Function Approximation
+4. A Complete Reinforcement Learning System (Capstone)
+
+About Specialization:
+A specialization exploring fundamental reinforcement learning concepts such as prediction, control, value functions, policy gradients, and function approximation, reinforced through practical coding assignments.
+
+Skills and Technologies learnt: 
+Reinforcement learning, value functions, policy gradients, control methods, function approximation.
+
+Course Link: https://www.coursera.org/account/accomplishments/specialization/9BR3UHYUV4HP
+GitHub link: https://github.com/AyushmanGHub/Coursera_Reinforcement-Learning-Specialization
+
+-----
+
+Specialization: Game Theory
+Institute name: University of British Columbia & Stanford University (via Coursera)
+
+About Specialization:
+An introductory course in strategic decision-making using game theory concepts such as Nash equilibrium, auctions, Bayesian games, bargaining, and mixed strategies.
+
+Skills and Technologies learnt: 
+Nash equilibrium, auction theory, Bayesian games, bargaining theory, mixed strategies.
+
+Course Link: https://www.coursera.org/account/accomplishments/verify/ED7J4U64XKYZ
+
+
+
+
+
+
