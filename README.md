@@ -34,7 +34,6 @@ The **Streamlit AI Portfolio** stands out by leveraging cutting-edge **Agentic A
 * **Frontend Development:** Built entirely with **Streamlit** for a responsive, clean, and interactive user interface.
 * **Agentic Orchestration:** Employs **LangChain** (specifically **LangGraph** for multi-step agent workflows) to orchestrate complex interactions and reasoning capabilities of the AI assistant.
 * **High-Performance LLM Integration:** Powered by **Google Gemini API** for fast, scalable, and intelligent large language model responses.
-* **Data Grounding (RAG):** Implements **Retrieval-Augmented Generation (RAG)** to ensure the AI assistant's responses are accurate and directly grounded in my resume and portfolio data, minimizing hallucinations.
 * **Automated Content Presentation:** Features dynamic rendering of sections like certifications, projects, and a personal blog, ensuring fresh content presentation.
 * **Seamless Cloud Deployment:** Fully deployed and accessible via **Streamlit Cloud**, demonstrating practical, real-world application of the technologies.
 
