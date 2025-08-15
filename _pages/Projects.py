@@ -20,7 +20,64 @@ st.markdown("""
     """, unsafe_allow_html=True)
 st.markdown("")
 st.markdown("")
+
+
+
+# ---------------------------------------------------------------------------------------
+col6A, col6B = st.columns(2)
+
+
+# ========================= Project 1: ResAgent Portfolio =========================
+with col6A:
+    upper_col1, upper_col2 = st.columns([1, 2])
+    
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/portfolio_agentic.webp", use_container_width=True, caption="Portfolio with ResAgent")
+
+    with upper_col2:
+        st.markdown("### LectureAI – Your personal AI Tutor")
+        st.markdown("📅 **May 2025 - July 2025**")
+
+        github_link = "https://github.com/AyushmanGHub/LectureAI-Agentic-AI_freamework"  # Add your repo link
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+        st.markdown(github_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+        As a part 2025 Summer Internship, I with my teammate developed "Lecture-AI" Agentic-AI framework that addresses the key drawbacks of traditional video-based 
+        learning, such as linear information flow, information overload, time-consuming searches, and limited interaction.  This framework converts lecture videos 
+        into interactive learning experiences, providing a personalized chatbot, mind map, notes, and other materials for enhanced engagement and effectiveness. 
+        This Agentic-AI tool is aims to enhance learning experience, helping learners save 30–50% of their time through personalized, automated academic support.
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = ["Python", "LangGraph", "Groq LLM", "Agentic AI", "HTML", "CSS", "Groq API", "RAG", "Django", "Vectorstore"]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
+
+
+
+
+# ========================= Project 2: Spectral Graph Partitioning =========================
+# ----------------------------------------------------------------------------------------
+
 col5A, col5B = st.columns(2)
+
 
 # ========================= Project 1: ResAgent Portfolio =========================
 with col5A:
