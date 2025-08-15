@@ -117,6 +117,5 @@ Hi, I'm <b>Ayushman Anupam</b>, a Data Science student who loves working with da
 
 I come from a strong Mathematics background, which helped me develop deep interests in <b>Machine Learning, Graph Theory, Statistical Modeling, and Agentic AI</b>. I'm particularly excited about building intelligent systems that turn data into actionable insights.
 
-Currently, I'm working as an <b>AI Agent Developer Intern at Algo Labs</b>, where I'm building smart AI agents using advanced technologies like <b>LangGraph</b>, <b>RAG (Retrieval Augmented Generation)</b>, and <b>Large Language Models (LLMs)</b>. My work focuses on improving how educational content is delivered and consumed.
-</div>
+Currently, I am exploring the world of finance, specifically the role of time series analysis in financial markets, equity, and related domains. ALong, with it I am Working on a Time-Series project to automates real-time stock market analysis anf forecasting some Indian Stocks and Indexes by integrating data fetching, feature engineering, predictive modeling, and visualization.</div>
 """, unsafe_allow_html=True)
