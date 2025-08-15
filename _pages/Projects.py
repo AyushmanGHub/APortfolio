@@ -108,9 +108,8 @@ with col6A:
     st.markdown("#### About the Project")
     st.markdown("""
         As a part 2025 Summer Internship, I with my teammate developed "Lecture-AI" Agentic-AI framework that addresses the key drawbacks of traditional video-based 
-        learning, such as linear information flow, limited interaction, etc.  This framework converts lecture videos 
-        into interactive learning experiences, providing a personalized chatbot, mind map, notes, and other materials for enhanced engagement and effectiveness. 
-        This Agentic-AI tool is aims to enhance learning experience, helping learners save 30–50% of their time through personalized, automated academic support.
+        learning, such as linear information flow, limited interaction, etc.  This framework converts lecture videos into interactive learning experiences, providing a 
+        personalized chatbot, mind map, notes, and other materials for enhanced engagement and effectiveness. 
     """)
 
     st.markdown("##### Skills & Technologies Used")
