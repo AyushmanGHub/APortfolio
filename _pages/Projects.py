@@ -20,21 +20,75 @@ st.markdown("""
     """, unsafe_allow_html=True)
 st.markdown("")
 st.markdown("")
+###################################################################################################
+col7A, col7B = st.columns([3,1])
 
 
+# ========================= Currently working on project =========================
+with col7A:
+    upper_col1, upper_col2 = st.columns([1, 2])
+    
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/timeseries.webp", use_container_width=True, caption="Lecture-AI : Your personal AI tutor (Agentic-AI framework)")
 
-# ---------------------------------------------------------------------------------------
+    with upper_col2:
+        st.markdown("### LectureAI – Your personal AI Tutor")
+        st.markdown("📅 **August 2025 - Present** 🚧 *(Ongoing Project)*")
+
+        github_link = "https://github.com/AyushmanGHub/TimeSeries---Stock-Preciction"  # Add your repo link
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+        st.markdown(github_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+       Developing a project that automates real-time stock market analysis some Indian Stocks and Indexes by integrating data fetching, feature engineering, 
+       predictive modeling, and visualization. It continuously updates historical and prediction datasets, detects missing predictions, and generates advanced 
+       lag-based features for improved forecasting. The system supports incremental learning, fine-tuning the model as new actual data arrives. Interactive plots 
+       provide both full-range and zoomed-in market trend insights, enabling continuous and data-driven market monitoring.
+
+       I will also be developing DJango or Streamlit App to show real time prediction through Interactive plot
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = ["Python", "TimeSeries", "API call", "Ensemble ML Models", "Finance"]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
+st.markdown("""
+    <hr style="
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #a9a9a9, #d3d3d3);
+    ">
+    """, unsafe_allow_html=True)
+
+
+###################################################################################################
 col6A, col6B = st.columns(2)
 
 
-# ========================= Project 1: ResAgent Portfolio =========================
+# ========================= Project 1:LectureAI =========================
 with col6A:
     upper_col1, upper_col2 = st.columns([1, 2])
     
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/portfolio_agentic.webp", use_container_width=True, caption="Portfolio with ResAgent")
+        st.image(r"images/lectureAI.webp", use_container_width=True, caption="Lecture-AI : Your personal AI tutor (Agentic-AI framework)")
 
     with upper_col2:
         st.markdown("### LectureAI – Your personal AI Tutor")
@@ -54,14 +108,14 @@ with col6A:
     st.markdown("#### About the Project")
     st.markdown("""
         As a part 2025 Summer Internship, I with my teammate developed "Lecture-AI" Agentic-AI framework that addresses the key drawbacks of traditional video-based 
-        learning, such as linear information flow, information overload, time-consuming searches, and limited interaction.  This framework converts lecture videos 
+        learning, such as linear information flow, limited interaction, etc.  This framework converts lecture videos 
         into interactive learning experiences, providing a personalized chatbot, mind map, notes, and other materials for enhanced engagement and effectiveness. 
         This Agentic-AI tool is aims to enhance learning experience, helping learners save 30–50% of their time through personalized, automated academic support.
     """)
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "LangGraph", "Groq LLM", "Agentic AI", "HTML", "CSS", "Groq API", "RAG", "Django", "Vectorstore"]
+    skills = ["Python", "LangGraph","LangChain", "Groq LLM", "Agentic AI","AI-Agents" ,"HTML", "CSS", "Groq API", "RAG", "Django", "Vectorstore"]
 
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
@@ -73,8 +127,9 @@ with col6A:
 
 
 
-# ========================= Project 2: Spectral Graph Partitioning =========================
-# ----------------------------------------------------------------------------------------
+# ========================= Project 2: =========================
+st.markdown("---")
+###################################################################################################
 
 col5A, col5B = st.columns(2)
 
