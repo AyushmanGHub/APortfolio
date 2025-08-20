@@ -24,8 +24,9 @@ Skills:
 
 Profile:
 Hi, I'm Ayushman Anupam, a Data Science student who loves working with data, solving real-world problems, and continuously exploring how mathematics, statistics, and AI can be used to make meaningful impact.
-I come from a strong Mathematics background, which helped me develop deep interests in Machine Learning, Graph Theory, Statistical Modeling, and Agentic AI. I'm particularly excited about building intelligent systems that turn data into actionable insights.
-Currently, I'm working as an AI Agent Developer Intern at Algo Labs, where I'm building smart AI agents using advanced technologies like LangGraph, RAG (Retrieval Augmented Generation), and Large Language Models (LLMs). My work focuses on improving how educational content is delivered and consumed.
+Coming from a Mathematics background has helped me develop deep interests in Machine Learning, Graph Theory, Statistical Modeling, and Agentic AI. I'm particularly excited about building intelligent systems that turn data into actionable insights.
+
+Currently, I am exploring the world of finance, specifically the role of time series analysis in financial markets, equity, and related domains. ALong, with it I am Working on a Time-Series project to automates real-time stock market analysis and forecasting some Indian Stocks and Indexes by integrating data fetching, feature engineering, predictive modeling, and visualization.
 
 ----------
 
@@ -33,7 +34,7 @@ Education :
 Education degree:  M.Sc in Data Science
 Institute: Chennai Mathematical Institute 
 Duration: 2024 - Present
-CGPA - 8.62
+CGPA - 9.19
 Key subjects: Python, Probability and Statistics with R, Mathematical Analysis, Data Visualization, Linear Algebra, Algorithm Design and Analysis, Data Mining and Machine Learning.
 
 Education: 
@@ -49,11 +50,10 @@ Institute: Algo Labs
 Duration: May 2025 - July 2025
 
 About Internship:
-Actively contributed to the design and development of **advanced AI agents**, focusing on automating complex tasks and streamlining sophisticated workflows.
-Developed a smart Agentic-AI framework that converts lecture videos into interactive learning experiences, providing a personalized chatbot, mind-map, notes and other materials for enhanced engagement and effectiveness.
+I with my team designd and developed **advanced AI agents**, focusing on automating complex tasks and streamlining sophisticated workflows.
+Mianly, we developed a smart Agentic-AI framework called "Lecture-AI"  that addresses the key drawbacks of traditional video-based learning, such as linear information flow, limited interaction, etc. App converts lecture videos into interactive learning experiences, providing a personalized chatbot, mind map, notes, and other materials for enhanced engagement and effectiveness. This Agentic-AI tool enhances learning experiences and saves learners 30–50% of their time through personalized, automated academic support.
 The Lecture Agent leverages **LangGraph for powerful orchestration**, **RAG (Retrieval-Augmented Generation) pipelines** for deep contextual understanding, and **integrates multiple APIs** for seamless data access and processing.
-Applied **cutting-edge AI techniques** in content generation, knowledge retrieval, and personalized learning to build intelligent educational tools that significantly enhance the student learning experience.
-The Lecture Agent empowers students with interactive lecture support, clarifies complex topics, and delivers customized feedback based on individual learning needs.
+Applied **AI techniques** in content generation, knowledge retrieval, and personalized learning to build intelligent educational tools that significantly enhance the student learning experience.
 
 Skills and Technologies Learnt
 Agentic AI, LangGraph, RAG (Retrieval Augmented Generation), Multi-Agent Systems, API Integrations, Knowledge Retrieval, AI-driven Content Generation, Task Automation, Educational Technology, Advanced Databases**
@@ -142,17 +142,50 @@ Achievements:
 
 ------------------------------------------------------------------------
 
+Project: "StockSeer – See the market’s next move"
+Date: August 2025 - Present
+
+About Project:
+Developing a project that automates real-time stock market analysis some Indian Stocks and Indexes by integrating data fetching, feature engineering, predictive modeling, and visualization. 
+It has mainly three features:
+  1. Updating historical and prediction datasets, detects missing predictions
+  2. The system supports incremental learning, fine-tuning the model as new actual data arrives. 
+  3. Interactive plots provide both full-range and zoomed-in market trend insights, enabling continuous and data-driven market monitoring.
+Along with above, I will also be developing DJango or Streamlit App to show real time prediction through Interactive plot
+
+Skills and Technologies used:
+Python, Yahoo-Finance, API calls, Finance, Machine Lerning and Depp Learning
+
+Github Link: https://github.com/AyushmanGHub/TimeSeries---Stock-Preciction
+
+-----
+
+Project: "LectureAI - your personal AI tutor"
+Date: May 2025 - July 2025
+
+About Project:
+LectureAI, an agentic AI solution designed to transform how users interact with and learn from video content. The last decade has seen an exponential growth in educational video content, often presented linearly, leading to key drawbacks such as information overload, time-consuming searches, and limited interaction. LectureAI addresses these challenges by transforming passive video consumption into an interactive, insightful, and personalized learning experience.
+The core of LectureAI is its agentic AI chatbot, which operates on lecture content and uses APIs to process information. In addition to the chatbot which t offers several features to help learning. It can generate multiple-choice questions (MCQs) and provide detailed evaluation. The application also creates a visual mind map of the video's structure and key concepts by generating. Finally, it generates well-structured notes, including an introduction, key takeaways, and a conclusion.
+
+Skills and Technologies used:
+Python, Djang, LangChain, LangGraph, RAG, Groq LLM and API, AI Agents and Agentic AI, HTML, CSS
+
+Github Link: https://github.com/AyushmanGHub/LectureAI-Agentic-AI_freamework
+
+-----
+
 Project : "Streamlit Portfolio Website with Agentic AI Assistant"
 Date: June 2025
 
 About project:
-The goal was to build a personal portfolio website that goes beyond static content by integrating an AI-powered assistant directly into the website. The problem was that typical portfolio sites often only showcase projects but don't allow interaction, live information fetching, or AI-powered query answering.
+Designed and developed a fully responsive Streamlit-based personal portfolio website integrated with an Agentic AI-powered assistant — ResAgent.
+The goal was to build a personal portfolio website that goes beyond static content by integrating an AI-powered assistant directly into the website. Typical portfolio sites often only showcase projects but don't allow interaction, live information fetching, or AI-powered query answering.
 The solution was a fully responsive Streamlit-based portfolio website that includes ResAgent — an Agentic AI assistant. ResAgent uses large language models (LLMs) to answer user queries, fetch recent data (like news or external information), and carry on interactive conversations directly on the portfolio site. The portfolio also features dynamically generated project pages, certification highlights, and AI-powered blog integration that makes it much more interactive and informative for visitors.
 
 Skills and Technologies used:
-Python, Streamlit, LangGraph, Groq LLM, Agentic AI, HTML, CSS, Groq API
+Python, Streamlit, Gemini API and LLM, AI Agents and Agentic AI, HTML, CSS
 
-Github Links: https://github.com/AyushmanGHub/APortfolio
+Github Link: https://github.com/AyushmanGHub/APortfolio
 Website Link: https://ayushmanportfolio.streamlit.app/
 
 -----
@@ -161,8 +194,8 @@ Project : "Fiedler's Theory of Spectral Graph Partitioning"
 Date: April 2025
 
 About project:
-The project addressed the problem of how to partition a graph into smaller, balanced, and well-connected subgraphs while minimizing the number of edges that get cut. This is a common challenge in areas like network design, load balancing, and parallel computing.
-The solution implemented Fiedler's Theory of Spectral Graph Partitioning, which uses the spectral properties of the graph's Laplacian matrix. Specifically, it involved constructing the graph Laplacian, computing the Fiedler value (second smallest eigenvalue), and using the Fiedler vector (corresponding eigenvector) to determine optimal partitions. The project successfully demonstrated how these mathematical techniques can effectively minimize cut edges while ensuring balanced partitions.
+Made a project that addressed the problem of how to partition a graph into smaller, balanced, and well-connected subgraphs while minimizing the number of edges that get cut. This is a common challenge in areas like network design, load balancing, and parallel computing.
+For solution, I implemented Fiedler's Theory of Spectral Graph Partitioning, which uses the spectral properties of the graph's Laplacian matrix. Specifically, it involved constructing the graph Laplacian, computing the Fiedler value (second smallest eigenvalue), and using the Fiedler vector (corresponding eigenvector) to determine optimal partitions. The project successfully demonstrated how these mathematical techniques can effectively minimize cut edges while ensuring balanced partitions.
 The entire work was implemented, documented, and presented using Python, Jupyter Notebook, and LaTeX, showcasing both theoretical understanding and practical application in graph theory and network analysis.
 
 Skills and Technologies used:
@@ -184,7 +217,7 @@ The solution involved developing and implementing multiple binary classification
 Skills and Technologies used:
 Python, Machine Learning, Binary Classification, Feature Selection, Model Evaluation, Risk Assessment
 
-Github Links: https://github.com/AyushmanGHub/CreditRisk-Predicting-Borrower-Reliability
+Github Link: https://github.com/AyushmanGHub/CreditRisk-Predicting-Borrower-Reliability
 
 -----
 
@@ -198,7 +231,7 @@ The solution was a comprehensive recommendation system that combines both Conten
 Skills and Technologies used:
 Python, Machine Learning, Content-Based Filtering, Collaborative Filtering, Recommender Systems, Data Processing, EDA
 
-Github Links: https://github.com/AyushmanGHub/NextBuy-Predicting-your-next-perfect-purchase
+Github Link: https://github.com/AyushmanGHub/NextBuy-Predicting-your-next-perfect-purchase
 
 
 -----
@@ -213,7 +246,7 @@ The solution involved building a robust churn prediction model using multiple ma
 Skills and Technologies used:
 Python, Machine Learning, Logistic Regression, Random Forest, XGBoost, Pandas, Seaborn, Matplotlib, Feature Engineering, Model Evaluation
 
-Github Links: https://github.com/AyushmanGHub/ChurnPredict-Unlocking-Subscription-Insights
+Github Link: https://github.com/AyushmanGHub/ChurnPredict-Unlocking-Subscription-Insights
 
 -----
 
@@ -227,7 +260,7 @@ The solution involved developing a customer segmentation system using the K-Mean
 Skills and Technologies used:
 Python, K-Means Clustering, PCA, Pandas, Data Preprocessing, Matplotlib, Seaborn, Plotly, Customer Segmentation
 
-Github Links: https://github.com/AyushmanGHub/ClusterCart-Unveiling-Customer-through-Data
+Github Link: https://github.com/AyushmanGHub/ClusterCart-Unveiling-Customer-through-Data
 
 -----
 
@@ -241,7 +274,7 @@ The solution involved developing, optimizing, and implementing machine learning 
 Skills and Technologies used:
 Python, Random Forest, XGBoost, Streamlit, Machine Learning, Feature Engineering, Model Evaluation, ROC-AUC, Healthcare Analytics
 
-Github Links: https://github.com/AyushmanGHub/Heartbeat-Sentinel_Decoding-and-Predicting-Heart-Failure
+Github Link: https://github.com/AyushmanGHub/Heartbeat-Sentinel_Decoding-and-Predicting-Heart-Failure
 Streamlit App Link: https://heartbeatsentineldecodingandpredictingheartfailure.streamlit.app/
 
 -----
@@ -256,7 +289,7 @@ The solution involved performing a comprehensive analysis using property area, n
 Skills and Technologies used:
 R, RShiny, Data Analysis, EDA, Correlation Analysis, Housing Market Prediction, Visualization
 
-Github Links: https://github.com/AyushmanGHub/From-Data-to-Dwellings-Decoding-Amsterdam-s-Housing-Prices
+Github Link: https://github.com/AyushmanGHub/From-Data-to-Dwellings-Decoding-Amsterdam-s-Housing-Prices
 R-Shiny App Link: https://gkrujk-ayur-ayushman.shinyapps.io/Decoding-Amsterdam-House-Prices-App/
 
 -----
@@ -271,7 +304,7 @@ The solution involved developing a time-series forecasting model using MultiOutp
 Skills and Technologies used:
 Python, Time-Series Forecasting, MultiOutputRegressor, LGBMRegressor, MAE, MAPE, RMSE, Machine Learning
 
-Github Links: https://github.com/AyushmanGHub/Daily-Temperature-Prediction-of-Chennai
+Github Link: https://github.com/AyushmanGHub/Daily-Temperature-Prediction-of-Chennai
 
 -----
 
@@ -285,7 +318,7 @@ The solution involved conducting an in-depth statistical analysis to quantify di
 Skills and Technologies used:
 Statistics, Inequality Indices (Gini, Theil, Atkinson), Data Analysis, Public Health Analytics
 
-Github Links: https://github.com/AyushmanGHub/Availability_Accessibility_and_Inequalities_of_WASH_in_Metro-Cities
+Github Link: https://github.com/AyushmanGHub/Availability_Accessibility_and_Inequalities_of_WASH_in_Metro-Cities
 Paper Link: https://drive.google.com/file/d/1pfVu68jwAGkJZDnyAtd4bdaJkukxAP7l/view
 
 ------------------------------------------------------------------------
