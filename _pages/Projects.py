@@ -31,10 +31,10 @@ with col7A:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/timeseries.webp", use_container_width=True, caption="StockSeer – See the market’s next.")
+        st.image(r"images/timeseries.webp", use_container_width=True, caption="StockSeer – See the market’s next move")
 
     with upper_col2:
-        st.markdown("### StockSeer – See the market’s next move before it happens.")
+        st.markdown("### StockSeer – See the market’s next move")
         st.markdown("📅 **August 2025 - Present** 🚧 *(Ongoing Project)*")
 
         github_link = "https://github.com/AyushmanGHub/-StockSeer-See-market-s-next-move"
