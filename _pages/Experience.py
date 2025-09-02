@@ -25,9 +25,9 @@ st.markdown("---")
 # --- Mathematics Tutor ---
 with st.container():
     st.info("Mathematics Tutor | Gyan Education Center, Jamshedpur")
-    st.write("*Apr 2021 - Dec 2025* | *Hybrid*")
+    st.write("*Apr 2021 - Dec 2024* | *Hybrid*")
     st.markdown("""
-    I have worked as a part-time mathematics tutor, helping students from **Class 9 to Class 12**, as well as those preparing for competitive exams like **JEE Mains, JEE Advanced, and other entrance exams**.  
+    I worked as a part-time mathematics tutor, helping students from **Class 9 to Class 12**, as well as those preparing for competitive exams like **JEE Mains, JEE Advanced, and other entrance exams**.  
     """)
 st.markdown("---")
 
