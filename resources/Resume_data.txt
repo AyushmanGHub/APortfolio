@@ -15,6 +15,8 @@ Skills:
 * Transformers, AI, Large Language Models (LLM), AI Agents, Agentic AI
 * LangGraph, Vetor-store, RAG, Data Base
 * Programming Languages: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn), R, SQL, LaTeX
+* Finance: Credit & Market Risk Modeling, Portfolio Management & Equity Analysis and Financial Econometrics & Scenario Analysis 
+* Time Series Analysis: ARIMA, LSTM, GARCH
 * Machine Learning: Supervised & Unsupervised Learning (Regression, Classification, Clustering), Recommendation Systems
 * Deep Learning: Artificial Neural Networks (ANN), Deep Learning, Convolutional Neural Networks (CNN)
 * Tools & Platforms: Jupyter Notebook, Git, MS Office (Word, Excel, PowerPoint, PowerBI), Tableau, R-Shiny and Streamlit
