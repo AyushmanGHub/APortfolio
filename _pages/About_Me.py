@@ -113,9 +113,10 @@ st.markdown("---")
 
 st.markdown("""
 <div style="font-size: 18px; text-align: justify;">
-Hi, I'm <b>Ayushman Anupam</b>, a Data Science student who loves working with data, solving real-world problems, and continuously exploring how mathematics, statistics, and AI can be used to make meaningful impact.
+            
+Hi, I'm <b>Ayushman Anupam</b>, a Data Science student who loves working with data. I enjoy building data-driven systems and exploring how mathematics, statistics, and AI can be used to solve real-world problems.
 
-Coming from a Mathematics background has helped me develop deep interests in <b>Machine Learning, Graph Theory, Statistical Modeling, and Agentic AI</b>. I'm particularly excited about building intelligent systems that turn data into actionable insights.
+My academic background in mathematics has naturally led me toward areas such as <b>Machine Learning, Statistical Modeling, Graph Theory, and Agentic AI systems</b>. I am particularly interested in designing intelligent systems that can transform complex data into meaningful insights and practical applications.
 
-Currently, I am exploring the world of finance, specifically the role of time series analysis in financial markets, equity, and related domains. ALong, with it I am Working on a Time-Series project to automates real-time stock market analysis and forecasting some Indian Stocks and Indexes by integrating data fetching, feature engineering, predictive modeling, and visualization.</div>
+Recently, I have been exploring world of finance especially intersection of <b>quantitative finance and machine learning</b>, focusing on topics like <b>time series modeling, portfolio optimization, and statistical arbitrage</b>. My current work involves developing quantitative research projects that apply statistical methods and machine learning to financial markets, including strategies for portfolio construction, risk analysis, and market signal generation.
 """, unsafe_allow_html=True)

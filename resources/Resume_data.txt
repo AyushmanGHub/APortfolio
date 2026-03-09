@@ -4,31 +4,35 @@ currently a Data Science Student
 Contact information:
 * Portfolio Website: https://ayushmanportfolio.streamlit.app/
 * LinkedIn: https://www.linkedin.com/in/ayushman-anupam/
-* Email: ayushmantutu@gmail.com, ayushmana.mds2024@cmi.ac.in
+* Email: ayushmantutu@gmail.com
 * Phone Number: +91 7717760813
 * GitHub: https://github.com/AyushmanGHub
 * Location: Jamshedpur, Jharkhand, India
 
 ----------
 
+
+
 Skills:
-* Transformers, AI, Large Language Models (LLM), AI Agents, Agentic AI
-* LangGraph, Vetor-store, RAG, Data Base
-* Programming Languages: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn), R, SQL, LaTeX
-* Finance: Credit & Market Risk Modeling, Portfolio Management & Equity Analysis and Financial Econometrics & Scenario Analysis 
-* Time Series Analysis: ARIMA, LSTM, GARCH
-* Machine Learning: Supervised & Unsupervised Learning (Regression, Classification, Clustering), Recommendation Systems
-* Deep Learning: Artificial Neural Networks (ANN), Deep Learning, Convolutional Neural Networks (CNN)
-* Tools & Platforms: Jupyter Notebook, Git, MS Office (Word, Excel, PowerPoint, PowerBI), Tableau, R-Shiny and Streamlit
-* Core Competencies: Data Analysis, Predictive Modeling, Feature Engineering, Model Evaluation & Optimization, Problem Solving, Statistical Analysis, Data Visualization
+• Artificial Intelligence & LLM Systems: Transformers, Large Language Models (LLMs), AI Agents, Agentic AI, Retrieval-Augmented Generation (RAG), LangChain, LangGraph, Vector Databases
+• Programming & Technical Tools: Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly), R, SQL, LaTeX
+• Quantitative Finance: Statistical Arbitrage, Portfolio Optimization, Credit & Market Risk Modeling, Financial Econometrics, Equity Analysis, Scenario Analysis
+• Time Series & Statistical Modeling: ARIMA, GARCH, LSTM, Time Series Forecasting, Covariance Estimation, Stochastic Modeling
+• Machine Learning: Supervised Learning (Regression, Classification), Unsupervised Learning (Clustering), Recommendation Systems, Feature Engineering, Model Evaluation & Optimization
+• Deep Learning: Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), PyTorch, TensorFlow
+• MLOps & ML Systems: DVC (Data Version Control), MLflow, Model Deployment, Experiment Tracking, Flask, Docker
+• Data Analytics & Visualization: Exploratory Data Analysis (EDA), Statistical Analysis, Data Visualization, Pandas, Plotly, Tableau, Power BI
+• Tools & Platforms: Jupyter Notebook, Git & GitHub, Streamlit, R-Shiny, Microsoft Office (Excel, Word, PowerPoint)
+• Core Competencies: Data Analysis, Predictive Modeling, Quantitative Research, Statistical Inference, Problem Solving
 
 ----------
 
 Profile:
-Hi, I'm Ayushman Anupam, a Data Science student who loves working with data, solving real-world problems, and continuously exploring how mathematics, statistics, and AI can be used to make meaningful impact.
-Coming from a Mathematics background has helped me develop deep interests in Machine Learning, Graph Theory, Statistical Modeling, and Agentic AI. I'm particularly excited about building intelligent systems that turn data into actionable insights.
+Hi, I'm Ayushman Anupam, a Data Science student who loves working with data. I enjoy building data-driven systems and exploring how mathematics, statistics, and AI can be used to solve real-world problems.
 
-Currently, I am exploring the world of finance, specifically the role of time series analysis in financial markets, equity, and related domains. ALong, with it I am Working on a Time-Series project to automates real-time stock market analysis and forecasting some Indian Stocks and Indexes by integrating data fetching, feature engineering, predictive modeling, and visualization.
+My academic background in mathematics has naturally led me toward areas such as <b>Machine Learning, Statistical Modeling, Graph Theory, and Agentic AI systems</b>. I am particularly interested in designing intelligent systems that can transform complex data into meaningful insights and practical applications.
+
+Recently, I have been exploring world of finance especially intersection of quantitative finance and machine learning, focusing on topics like time series modeling, portfolio optimization, and statistical arbitrage. My current work involves developing quantitative research projects that apply statistical methods and machine learning to financial markets, including strategies for portfolio construction, risk analysis, and market signal generation.
 
 ----------
 
@@ -42,12 +46,25 @@ Key subjects: Python, Probability and Statistics with R, Mathematical Analysis, 
 Education: 
 Education degree: BMaths. (Hons.)
 Institute: Indian Statistical Institute (2020 - 2024)
-Percentage - 63%
 Key subjects: Probability, Statistics, R, Graph Theory, Optimization, Economics, Linear Algebra, Design and Analysis of Algorithms, Graph and Matrices.
 
 ----------
 
-Internship: AI Agent Development Intern
+Industry Project(Work Experience): Trading Strategy Researcher  
+Institute: Under Prantik Biswas – Quantitative Investment Strategist (AVP) at HSBC  
+Duration: August 2025 - November 2025  
+
+About Industry Project:
+As part of my Industry Project at Chennai Mathematical Institute, I worked under the supervision of Prantik Biswas on quantitative trading research for Indian equity markets. The project focused on developing data-driven methods for short-term market analysis and portfolio decision-making using machine learning and statistical techniques.
+
+The work involved three key research components. First, I worked on time-series forecasting models using Long Short-Term Memory (LSTM) networks to predict short-term price movements of major indices and stocks from the NIFTY 50 universe. Second, I developed algorithms to identify technical support and resistance levels from historical price data by analysing local extrema and clustering significant price points. Third, I extended asset-level predictions to portfolio construction by implementing a portfolio optimization framework. Predicted returns were used as expected returns, while risk was dynamically estimated using rolling covariance matrices. Mean-variance optimization was applied to construct portfolios that maximize the Sharpe ratio under changing market conditions.
+
+Skills and Technologies Learnt:
+Quantitative Finance, Time Series Forecasting, LSTM, XGBoost, Portfolio Optimization, Mean-Variance Optimization, Sharpe Ratio Analysis, Financial Data Analysis
+
+-----
+
+Internship(Work Experience): AI Agent Development Intern
 Institute: Algo Labs
 Duration: May 2025 - July 2025
 
@@ -61,7 +78,7 @@ Skills and Technologies Learnt
 Agentic AI, LangGraph, RAG (Retrieval Augmented Generation), Multi-Agent Systems, API Integrations, Knowledge Retrieval, AI-driven Content Generation, Task Automation, Educational Technology, Advanced Databases**
 -----
 
-Internship: Data Scientist Intern
+Internship(Work Experience): Data Scientist Intern
 Institute: COTHON SOLUTIONS
 Duration: Dec 2024
 
@@ -77,7 +94,7 @@ Python, Machine Learning, K-Means Clustering, Content-Based Filtering, Collabora
 -----
 
 
-Internship: Finance and Stock Market Internship - Trainee
+Internship(Work Experience): Finance and Stock Market Internship - Trainee
 Institute: CAPITAL VISION INVESTMENT
 Duration: Nov 2024 - Dec 2024
 
@@ -134,32 +151,124 @@ Volunteered at blood donation camps organized by the NGO, assisting with coordin
 Participated in awareness programs across multiple educational institutes to promote the importance of voluntary blood donation and educate individuals on the process and benefits of donating blood.
 Engaged in bloodcare initiatives, focusing on creating a sustainable blood donation ecosystem by motivating first-time donors, following up with regular donors, and supporting emergency donation drives.
 
-----------
-
-Achievements:
-* GATE 2024 (Statistics): AIR 271
-* Indian Statistical Institute (ISI) MS QMS 2024 Entrance Exam: Rank 1
-* JEE Mains, 2020 all India Rank - 4652
-* JEE Advance, 2020 all India Rank - 7658
-
 ------------------------------------------------------------------------
 
-Project: "StockSeer – See the market’s next move"
-Date: August 2025 - Present
+Project: "Z-Score Alpha – Statistical Arbitrage Strategy"
+Date: March 2026 - Present
 
 About Project:
-Developing a project that automates real-time stock market analysis some Indian Stocks and Indexes by integrating data fetching, feature engineering, predictive modeling, and visualization. 
-It has mainly three features:
-  1. Updating historical and prediction datasets, detects missing predictions
-  2. The system supports incremental learning, fine-tuning the model as new actual data arrives. 
-  3. Interactive plots provide both full-range and zoomed-in market trend insights, enabling continuous and data-driven market monitoring.
-Along with above, I will also be developing DJango or Streamlit App to show real time prediction through Interactive plot
+Developing a quantitative trading research project focused on statistical arbitrage using Z-score based signals derived from financial time series data. 
+The project aims to identify short-term mean-reversion opportunities in market prices by standardizing price deviations from historical behavior and generating trading signals based on statistical thresholds.
+
+The workflow includes data understanding, financial time-series preprocessing, signal generation, and backtesting of the strategy to evaluate performance under different market conditions. 
+The project emphasizes building a clean and reproducible data pipeline along with analytical tools for exploring statistical patterns in asset price movements.
 
 Skills and Technologies used:
-Python, Yahoo-Finance, API calls, Finance, Machine Lerning and Depp Learning
+Quantitative Finance, Statistical Arbitrage, Z-Score Analysis, Time Series Analysis, Data Cleaning, Financial Data Processing
 
-Github Link: https://github.com/AyushmanGHub/TimeSeries---Stock-Preciction
+Github Link: https://github.com/AyushmanGHub/Z-Score_Alpha-Statistical_Arbitrage_Strategy
 
+-------
+
+Project: "Minimum Variance Portfolio Optimization"
+Date: January 2026 - February 2026 
+
+About Project:
+Developed a quantitative finance project focused on constructing an optimal investment portfolio using the Minimum Variance Portfolio (MVP) framework. 
+The project analyzes historical asset returns to estimate the covariance structure between assets and determines portfolio weights that minimize overall portfolio risk. 
+It demonstrates how statistical methods and optimization techniques can be applied to portfolio construction and risk management in financial markets.
+
+Skills and Technologies used:
+Python, Portfolio Optimization, Quantitative Finance, Covariance Estimation, Time Series Analysis, Financial Data Analysis,Data Visualization
+
+Github Link: https://github.com/AyushmanGHub/Minimum_Variance_Portfolio_Optimization
+
+------
+
+Project: "Applied Machine Learning (AML) –  Projects"
+Date: January 2026 - Present
+
+About Project:
+Working on a series of practical assignments as part of the Applied Machine Learning course, focusing on building machine learning systems and learning the full ML workflow from model development to deployment. 
+The project covers model building, experiment tracking, version control for data and models, web deployment, and containerization to simulate real-world machine learning pipelines.
+
+Key components of the project include developing a spam detection model, implementing data and model versioning using DVC, deploying the model through a Flask-based web application, and containerizing the application using Docker to ensure reproducibility and portability.
+
+Skills and Technologies used:
+Python, Machine Learning, Spam Classification, DVC (Data Version Control), MLflow, Flask, Docker, Model Deployment, Experiment Tracking, Git
+
+Github Link: https://github.com/AyushmanGHub/Applied_Machine_Learning
+
+------
+
+Project: "QuantPulse – Short-term Portfolio Optimizer"
+Date: October 2025 - November 2025
+
+About Project:
+Developed a quantitative finance project focused on short-term portfolio optimization using market data and predictive modeling techniques. 
+The system integrates financial data processing, return forecasting, and portfolio allocation strategies to identify optimal asset weightings for short-term investment horizons. 
+The project implements automated workflows for data preparation, model-based signal generation, and performance evaluation to support systematic portfolio decision-making.
+
+Skills and Technologies used:
+Python, Quantitative Finance, Portfolio Optimization, Time Series Analysis, Machine Learning, Financial Data Processing, Data Visualization
+
+Github Link: https://github.com/AyushmanGHub/QuantPulse_Short-term-Portfolio-Optimizer
+Report Link: https://drive.google.com/file/d/11VfeVdgkm0hL-Hl-lv4j5xL7AOzKphhA/view?usp=sharing
+
+-------
+
+Project: "Synthetic Data Generation and Prediction for Corporate Rating using Bayesian and MCMC Techniques"
+Date: November 2025 - December 2025 
+
+About Project:
+Developed a probabilistic modeling project focused on predicting corporate credit ratings using Bayesian statistical methods. 
+The project combines synthetic data generation with Bayesian inference to handle limited financial datasets and to build more robust predictive models. 
+By leveraging MCMC sampling techniques, the system estimates posterior distributions of model parameters and provides probabilistic predictions along with uncertainty quantification.
+
+It has mainly three features:
+  1. Synthetic data generation framework to expand limited financial datasets and support more stable model training.
+  2. Bayesian predictive modeling using Markov Chain Monte Carlo (MCMC) methods for parameter estimation and corporate rating prediction.
+  3. Evaluation and visualization of posterior distributions and prediction results to analyze model performance and uncertainty.
+
+Skills and Technologies used:
+Python, Bayesian Statistics, Markov Chain Monte Carlo (MCMC), Synthetic Data Generation, Financial Data Analysis, Machine Learning, Data Visualization
+
+Github Link: https://github.com/AyushmanGHub/Synthetic-Data-Generation-and-Prediction-for-Corporate-rating-using-Bayesian-and-MCMC-techniques
+Report Paper: https://drive.google.com/file/d/1eRune85TmsE66F_FzjNj7_KPNSiULhvv/view?usp=sharing
+
+
+-------
+
+Project: "Applied Data Analytics (ADA) - Projects"
+Date: August 2025 - November 2025 
+
+About Project:
+Developed a collection of applied data analytics projects focused on exploring real-world datasets using statistical analysis, machine learning techniques, and data visualization. 
+The project demonstrates end-to-end data analytics workflows including data preprocessing, exploratory data analysis (EDA), model building, and interpretation of analytical results. 
+Through multiple case studies, the work highlights practical applications of analytics techniques for extracting insights and supporting data-driven decision making.
+
+Skills and Technologies used:
+Data Analytics, Exploratory Data Analysis (EDA), Statistical Analysis, Machine Learning, Data Visualization, Matplotlib, Jupyter Notebook
+
+Github Link: https://github.com/AyushmanGHub/Applied-Data-Analytics_-ADA-_projects
+
+-------
+Project: "StockSeer – See the market’s next move"
+Date: August 2025 - September 2025 
+
+About Project:
+Developed an end-to-end system for automated stock market analysis and prediction on selected Indian stocks and indices. 
+The project integrates data collection, feature engineering, predictive modeling, and visualization into a unified pipeline for continuous market monitoring and analysis.
+
+It has mainly three features:
+  1. Automated data pipeline that updates historical market data, generates predictions, and detects missing prediction entries.
+  2. Incremental learning capability where the model is periodically fine-tuned as new actual market data becomes available.
+  3. Interactive visualizations that provide both full-range and zoomed-in views of market trends, enabling better interpretation of short-term movements and long-term patterns.
+
+Skills and Technologies used:
+Python, Yahoo Finance API, Data Processing, Time Series Analysis, Machine Learning, Data Visualization
+
+Github Link: https://github.com/AyushmanGHub/-StockSeer-See-market-s-next-move
 -----
 
 Project: "LectureAI - your personal AI tutor"
@@ -170,7 +279,7 @@ LectureAI, an agentic AI solution designed to transform how users interact with 
 The core of LectureAI is its agentic AI chatbot, which operates on lecture content and uses APIs to process information. In addition to the chatbot which t offers several features to help learning. It can generate multiple-choice questions (MCQs) and provide detailed evaluation. The application also creates a visual mind map of the video's structure and key concepts by generating. Finally, it generates well-structured notes, including an introduction, key takeaways, and a conclusion.
 
 Skills and Technologies used:
-Python, Djang, LangChain, LangGraph, RAG, Groq LLM and API, AI Agents and Agentic AI, HTML, CSS
+Python, DJango, LangChain, LangGraph, RAG, LLM and API, AI Agents and Agentic AI, HTML, CSS
 
 Github Link: https://github.com/AyushmanGHub/LectureAI-Agentic-AI_freamework
 
@@ -246,7 +355,7 @@ The project focused on solving the critical problem faced by subscription-based 
 The solution involved building a robust churn prediction model using multiple machine learning algorithms, including Logistic Regression, Random Forest, and XGBoost. Comprehensive feature engineering was performed by extracting meaningful features from customer demographics, subscription details, and engagement metrics, resulting in a highly informative dataset. Hyperparameter tuning was applied to optimize the models for better predictive performance. The models were evaluated using key metrics like accuracy, precision, recall, and ROC-AUC to ensure their reliability in predicting churn. Furthermore, data manipulation, analysis, and visualizations were carried out using Pandas, Seaborn, and Matplotlib to generate actionable business insights.
 
 Skills and Technologies used:
-Python, Machine Learning, Logistic Regression, Random Forest, XGBoost, Pandas, Seaborn, Matplotlib, Feature Engineering, Model Evaluation
+Python, Machine Learning, Logistic Regression, Random Forest, XGBoost, Matplotlib, Feature Engineering, Model Evaluation
 
 Github Link: https://github.com/AyushmanGHub/ChurnPredict-Unlocking-Subscription-Insights
 
@@ -260,7 +369,7 @@ The project addressed the challenge of understanding customer diversity in purch
 The solution involved developing a customer segmentation system using the K-Means clustering algorithm to identify distinct customer groups based on transaction data. Comprehensive data analysis, cleaning, and preprocessing were performed using Pandas to ensure high-quality data for modeling. Principal Component Analysis (PCA) was applied to reduce the dimensionality of the data, making the resulting customer clusters easier to visualize and interpret. Advanced visualizations were created using Matplotlib, Seaborn, and Plotly, allowing for clear identification of different customer segments and actionable business insights. The segmentation enabled businesses to tailor their marketing and recommendation strategies, ultimately enhancing customer satisfaction and driving profitability.
 
 Skills and Technologies used:
-Python, K-Means Clustering, PCA, Pandas, Data Preprocessing, Matplotlib, Seaborn, Plotly, Customer Segmentation
+Python, K-Means Clustering, PCA, Data Preprocessing, Matplotlib, Customer Segmentation
 
 Github Link: https://github.com/AyushmanGHub/ClusterCart-Unveiling-Customer-through-Data
 
@@ -274,7 +383,7 @@ The project tackled the critical problem of early prediction and prevention of h
 The solution involved developing, optimizing, and implementing machine learning models — specifically Random Forest and XGBoost — to predict the risk of heart failure with 90% accuracy. The entire pipeline included comprehensive data preprocessing, feature selection, and model evaluation using performance metrics like accuracy, precision, recall, F1-score, and ROC-AUC. The project also included detailed analysis to identify key risk factors that contribute to heart disease, enabling early warning and targeted intervention. To make the solution easily accessible, a Streamlit-based web application was developed and deployed, allowing users to input patient data and instantly classify heart failure risk.
 
 Skills and Technologies used:
-Python, Random Forest, XGBoost, Streamlit, Machine Learning, Feature Engineering, Model Evaluation, ROC-AUC, Healthcare Analytics
+Python, Random Forest, XGBoost, Streamlit, Machine Learning, Feature Engineering, Model Evaluation, Healthcare Analytics
 
 Github Link: https://github.com/AyushmanGHub/Heartbeat-Sentinel_Decoding-and-Predicting-Heart-Failure
 Streamlit App Link: https://heartbeatsentineldecodingandpredictingheartfailure.streamlit.app/
@@ -304,7 +413,7 @@ The project aimed to accurately forecast weather patterns in Chennai by predicti
 The solution involved developing a time-series forecasting model using MultiOutputRegressor combined with LGBMRegressor to predict multiple temperature targets simultaneously. The model was trained and evaluated using robust performance metrics such as MAE (Mean Absolute Error), MAPE (Mean Absolute Percentage Error), and RMSE (Root Mean Squared Error), achieving RMSE values of 1.21 for average temperature, 1.31 for minimum temperature, and 1.84 for maximum temperature. This high level of accuracy ensured the reliability and practical utility of the forecasts.
 
 Skills and Technologies used:
-Python, Time-Series Forecasting, MultiOutputRegressor, LGBMRegressor, MAE, MAPE, RMSE, Machine Learning
+Python, Time-Series Forecasting, MultiOutputRegressor, LGBMRegressor, Machine Learning
 
 Github Link: https://github.com/AyushmanGHub/Daily-Temperature-Prediction-of-Chennai
 

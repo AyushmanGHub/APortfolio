@@ -42,8 +42,9 @@ def get_sidebar_social_links():
 # --- Menu Configuration ---
 MENU_OPTIONS = [
     "ResAgent", "About Me", "Experience", "Education",
-    "Projects", "Certifications", "Volunteering", "Blog", "Contact me"
+    "Projects", "Certifications", "Volunteering", "Contact me"
 ]
+# Blog,
 
 PAGE_MODULES = {
     "ResAgent": "_pages.ResAgent",
@@ -53,7 +54,7 @@ PAGE_MODULES = {
     "Projects": "_pages.Projects",
     "Certifications": "_pages.Certifications",
     "Volunteering": "_pages.Volunteering",
-    "Blog": "_pages.Blog",
+    # "Blog": "_pages.Blog",
     "Contact me": "_pages.Contact",
 }
 

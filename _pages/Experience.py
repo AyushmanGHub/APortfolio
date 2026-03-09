@@ -11,6 +11,18 @@ background: linear-gradient(to right, #ff5858, #f09819);
 ">
 """, unsafe_allow_html=True)
 
+# --- Trading Strategy Researcher ---
+with st.container():
+    st.success("Trading Strategy Researcher | Industry Project under Prantik Biswas (AVP, HSBC)")
+    st.write("*August 2025 - November 2025* | *Chennai Mathematical Institute*")
+    st.markdown("""
+    As part of my Industry Project at Chennai Mathematical Institute, I worked on projects focused on developing of data-driven methods for short-term market analysis and portfolio decision-making using machine learning and statistical techniques.
+
+    The work involved three key research components - **time-series forecasting models using Long Short-Term Memory (LSTM)**, *algorithms to detect technical support and resistance levels** from historical price data and **portfolio construction by implementing a portfolio optimization framework** under changing market conditions.
+    
+    """)
+
+st.markdown("---")
 
 # --- Agentic AI Intern ---
 with st.container():

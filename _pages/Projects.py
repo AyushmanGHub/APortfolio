@@ -21,21 +21,323 @@ st.markdown("""
 st.markdown("")
 st.markdown("")
 ###################################################################################################
-col7A, col7B = st.columns([3,1])
 
+col_working, _ = st.columns([3,1])
 
-# ========================= Currently working on project =========================
-with col7A:
+# ========================= Project: Z-Score Alpha =========================
+with col_working:
     upper_col1, upper_col2 = st.columns([1, 2])
-    
+
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/timeseries.webp", use_container_width=True, caption="StockSeer – See the market’s next move")
+        st.image(r"images/zscorealpha.webp", use_container_width=True, caption="Z-Score Alpha – Statistical Arbitrage Strategy")
+
+    with upper_col2:
+        st.markdown("### Z-Score Alpha – Statistical Arbitrage Strategy")
+        st.markdown("📅 **March 2026 - Present**")
+
+        github_link = "https://github.com/AyushmanGHub/Z-Score_Alpha-Statistical_Arbitrage_Strategy"
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+
+        st.markdown(github_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+    Developing a quantitative trading research project focused on statistical arbitrage using Z-score based signals derived from financial time series data. 
+    The project aims to identify short-term mean-reversion opportunities by standardizing price deviations from historical behavior and generating trading signals based on statistical thresholds.
+
+    The workflow includes data understanding, financial time-series preprocessing, signal generation, and backtesting of the strategy to evaluate performance under different market conditions. 
+    The project emphasizes building a clean and reproducible data pipeline along with analytical tools for exploring statistical patterns in asset price movements.
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = [
+        "Quantitative Finance",
+        "Statistical Arbitrage",
+        "Z-Score Analysis",
+        "Time Series Analysis",
+        "Data Cleaning",
+        "Financial Data Processing"
+    ]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
+
+st.markdown("---")
+
+
+
+###################################################################################################
+
+col9A, col9B = st.columns(2)
+
+# ========================= Project: Minimum Variance Portfolio Optimization =========================
+with col9A:
+    upper_col1, upper_col2 = st.columns([1, 2])
+
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/minvar.webp", use_container_width=True, caption="Minimum Variance Portfolio Optimization")
+
+    with upper_col2:
+        st.markdown("### Minimum Variance Portfolio Optimization")
+        st.markdown("📅 **January 2026 - February 2026**")
+
+        github_link = "https://github.com/AyushmanGHub/Minimum_Variance_Portfolio_Optimization"
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+
+        st.markdown(github_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+    Developed a quantitative finance project focused on constructing an optimal investment portfolio using the Minimum Variance Portfolio (MVP) framework. 
+    The project analyzes historical asset returns to estimate the covariance structure between assets and determines portfolio weights that minimize overall portfolio risk. 
+    It demonstrates how statistical methods and optimization techniques can be applied to portfolio construction and risk management in financial markets.
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = [
+        "Portfolio Optimization",
+        "Quantitative Finance",
+        "Covariance Estimation",
+        "Time Series Analysis",
+        "Financial Data Analysis"
+    ]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
+
+# ========================= Project 02: =========================
+with col9B:
+    st.markdown("")
+
+
+
+
+st.markdown("---")
+
+####################################################################################################
+
+col8A, col8B = st.columns(2)
+
+# ========================= Project 01: Applied Machine Learning =========================
+with col8A:
+    upper_col1, upper_col2 = st.columns([1, 2])
+
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/aml.webp", use_container_width=True, caption="Applied Machine Learning – End-to-End ML Workflow")
+
+    with upper_col2:
+        st.markdown("### Applied Machine Learning (AML) – Projects")
+        st.markdown("📅 **January 2026 - Present**")
+
+        github_link = "https://github.com/AyushmanGHub/Applied_Machine_Learning"
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+
+        st.markdown(github_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+    Working on a series of practical assignments as part of the Applied Machine Learning course, focusing on building machine learning systems and learning the full ML workflow from model development to deployment.
+
+    The project covers model building, experiment tracking, version control for data and models, web deployment, and containerization to simulate real-world machine learning pipelines.
+
+    Key components include:
+    - Spam detection model development  
+    - Data and model versioning using DVC  
+    - Model deployment through a Flask web application  
+    - Containerization using Docker for reproducible ML systems
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = [
+        "Machine Learning",
+        "DVC",
+        "MLflow",
+        "Flask",
+        "Docker",
+        "Model Deployment",
+        "Experiment Tracking",
+        "Git"
+    ]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
+
+
+# ========================= Project 02: Applied Data Analytics =========================
+with col8B:
+    upper_col1, upper_col2 = st.columns([1, 2])
+
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/ada.webp", use_container_width=True, caption="Applied Data Analytics – Real World Data Analysis")
+
+    with upper_col2:
+        st.markdown("### Applied Data Analytics (ADA) – Projects")
+        st.markdown("📅 **August 2025 - November 2025**")
+
+        github_link = "https://github.com/AyushmanGHub/Applied-Data-Analytics_-ADA-_projects"
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+
+        st.markdown(github_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+    Developed a collection of applied data analytics projects focused on exploring real-world datasets using statistical analysis, machine learning techniques, and data visualization.
+
+    The work demonstrates complete analytics workflows including data preprocessing, exploratory data analysis (EDA), model development, and interpretation of analytical results.
+
+    Through multiple case studies, the project highlights practical applications of analytics techniques for extracting insights and supporting data-driven decision making.
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = [
+        "Data Analytics",
+        "EDA",
+        "Statistical Analysis",
+        "Machine Learning",
+        "Data Visualization",
+    ]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
+
+st.markdown("---")
+
+
+
+
+###################################################################################################
+
+col7A, col7B = st.columns(2)
+
+# ========================= Project 01: QuantPulse =========================
+with col7A:
+    upper_col1, upper_col2 = st.columns([1, 2])
+
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/quantpulse.webp", use_container_width=True, caption="QuantPulse – Short-term Portfolio Optimizer")
+
+    with upper_col2:
+        st.markdown("### QuantPulse – Short-term Portfolio Optimizer")
+        st.markdown("📅 **October 2025 - November 2025**")
+
+        github_link = "https://github.com/AyushmanGHub/QuantPulse_Short-term-Portfolio-Optimizer"
+        report_link = "https://drive.google.com/file/d/11VfeVdgkm0hL-Hl-lv4j5xL7AOzKphhA/view?usp=sharing"
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+
+        report_html = f"""
+        <div style='display: inline-block;'>
+            <a href="{report_link}" target="_blank">
+                <button style='background-color:#e63946; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Report Paper</button>
+            </a>
+        </div>
+        """
+
+        st.markdown(github_html + report_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+    Developed a quantitative finance project focused on short-term portfolio optimization using market data and predictive modeling techniques. 
+    The system integrates financial data processing, return forecasting, and portfolio allocation strategies to identify optimal asset weightings for short-term investment horizons.
+
+    The project includes automated workflows for data preparation, model-based signal generation, and performance evaluation to support systematic portfolio decision-making.
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = [
+        "Quantitative Finance",
+        "Portfolio Optimization",
+        "Time Series Analysis",
+        "Machine Learning",
+        "Financial Data Processing",
+        "Data Visualization"
+    ]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
+
+
+# ========================= Project 02: StockSeer =========================
+with col7B:
+    upper_col1, upper_col2 = st.columns([1, 2])
+
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/stocksheer.webp", use_container_width=True, caption="StockSeer – Market Prediction System")
 
     with upper_col2:
         st.markdown("### StockSeer – See the market’s next move")
-        st.markdown("📅 **August 2025 - Present** 🚧 *(Ongoing Project)*")
+        st.markdown("📅 **August 2025 - September 2025**")
 
         github_link = "https://github.com/AyushmanGHub/-StockSeer-See-market-s-next-move"
 
@@ -46,21 +348,28 @@ with col7A:
             </a>
         </div>
         """
+
         st.markdown(github_html, unsafe_allow_html=True)
 
     st.markdown("#### About the Project")
     st.markdown("""
-       Developing a project that automates real-time stock market analysis some Indian Stocks and Indexes by integrating data fetching, feature engineering, 
-       predictive modeling, and visualization. It continuously updates historical and prediction datasets, detects missing predictions, and generates advanced 
-       lag-based features for improved forecasting. The system supports incremental learning, fine-tuning the model as new actual data arrives. Interactive plots 
-       provide both full-range and zoomed-in market trend insights, enabling continuous and data-driven market monitoring.
+        Developed an end-to-end system for automated stock market analysis and prediction on selected Indian stocks and indices. 
+        The project integrates data collection, feature engineering, predictive modeling, and visualization into a unified pipeline for continuous market monitoring and analysis.
 
-       I will also be developing DJango or Streamlit App to show real time prediction through Interactive plot
-    """)
+        **Key Features:**
+        1. Automated data pipeline that updates historical market data, generates predictions, and detects missing prediction entries.  
+        2. Incremental learning capability where the model is periodically fine-tuned as new actual market data becomes available.  
+        3. Interactive visualizations providing full-range and zoomed-in market trend insights.
+        """)
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "TimeSeries", "API call", "Ensemble ML Models", "Finance"]
+    skills = [
+        "Yahoo Finance API",
+        "Time Series Analysis",
+        "Machine Learning",
+        "Financial Data Processing",
+    ]
 
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
@@ -68,14 +377,8 @@ with col7A:
     badges_html += "</div>"
 
     st.markdown(badges_html, unsafe_allow_html=True)
-st.markdown("""
-    <hr style="
-    border: 0;
-    height: 2px;
-    background: linear-gradient(to right, #a9a9a9, #d3d3d3);
-    ">
-    """, unsafe_allow_html=True)
 
+st.markdown("---")
 
 ###################################################################################################
 col6A, col6B = st.columns(2)
@@ -114,7 +417,9 @@ with col6A:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "LangGraph","LangChain", "Groq LLM", "Agentic AI","AI-Agents" ,"HTML", "CSS", "Groq API", "RAG", "Django", "Vectorstore"]
+    skills = ["LangGraph",
+              "LangChain",  
+              "Agentic AI","AI-Agents", "LLM API", "RAG", "Django"]
 
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
@@ -124,9 +429,66 @@ with col6A:
     st.markdown(badges_html, unsafe_allow_html=True)
 
 
+# ========================= Project 2: Corporate Rating using Bayesian & MCMC =========================
+with col6B:
+    upper_col1, upper_col2 = st.columns([1, 2])
+
+    with upper_col1:
+        st.markdown(" ")
+        st.markdown(" ")
+        st.image(r"images/mcmc.webp", use_container_width=True, caption="Corporate Rating Prediction using Bayesian & MCMC")
+
+    with upper_col2:
+        st.markdown("### Synthetic Data Generation & Corporate Rating Prediction")
+        st.markdown("📅 **November 2025 - December 2025**")
+
+        github_link = "https://github.com/AyushmanGHub/Synthetic-Data-Generation-and-Prediction-for-Corporate-rating-using-Bayesian-and-MCMC-techniques"
+        report_link = "https://drive.google.com/file/d/1eRune85TmsE66F_FzjNj7_KPNSiULhvv/view?usp=sharing"
+
+        github_html = f"""
+        <div style='display: inline-block; margin-right: 10px;'>
+            <a href="{github_link}" target="_blank">
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+            </a>
+        </div>
+        """
+
+        report_html = f"""
+        <div style='display: inline-block;'>
+            <a href="{report_link}" target="_blank">
+                <button style='background-color:#e63946; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Report Paper</button>
+            </a>
+        </div>
+        """
+
+        st.markdown(github_html + report_html, unsafe_allow_html=True)
+
+    st.markdown("#### About the Project")
+    st.markdown("""
+        Developed a probabilistic modeling project focused on predicting corporate credit ratings using Bayesian statistical methods. 
+        The system integrates synthetic data generation with Bayesian inference to address the challenge of limited financial datasets. 
+        Using Markov Chain Monte Carlo (MCMC) sampling, the model estimates posterior distributions of parameters and produces probabilistic predictions with uncertainty quantification.
+    """)
+
+    st.markdown("##### Skills & Technologies Used")
+
+    skills = [
+        "Bayesian Statistics",
+        "MCMC",
+        "Synthetic Data Generation",
+        "Financial Data Analysis",
+        "Machine Learning",
+        "Data Visualization"
+    ]
+
+    badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+    for skill in skills:
+        badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+    badges_html += "</div>"
+
+    st.markdown(badges_html, unsafe_allow_html=True)
 
 
-# ========================= Project 2: =========================
 st.markdown("---")
 ###################################################################################################
 
@@ -176,7 +538,7 @@ with col5A:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "Streamlit", "LangGraph", "Groq LLM", "Agentic AI", "HTML", "CSS", "Groq API", "RAG"]
+    skills = ["Streamlit", "LangGraph", "Agentic AI", "HTML", "CSS", "LLM API"]
 
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
@@ -232,7 +594,7 @@ with col5B:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "Jupyter Notebook", "Graph Theory", "Network Analysis", "LaTeX", "Linear Algebra"]
+    skills = ["Graph Theory", "Network Analysis", "LaTeX", "Linear Algebra"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
@@ -279,7 +641,7 @@ with col4A:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "Sklearn", "Classification Models", "Logistic Regression", "Random Forest", "Precision-Recall", "Feature Selection", "EDA"]
+    skills = [ "Sklearn", "Classification Models", "Logistic Regression", "Random Forest", "Precision-Recall", "Feature Selection", "EDA"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
@@ -331,7 +693,7 @@ with col4B:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "Streamlit", "Random Forest", "XGBoost", "ROC-AUC", "Model Evaluation", "Feature Selection", "EDA"]
+    skills = ["Streamlit", "Random Forest", "XGBoost", "ROC-AUC", "Model Evaluation", "Feature Selection"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
@@ -343,7 +705,7 @@ st.markdown("---")
 ################################################################################################################################################ two columns for side-by-side display
 col2A, col2B = st.columns(2)
 
-# ========================= Project 1: NextBuy - E-commerce Recommendation (LEFT SIDE) =========================
+# ========================= Project 1: NextBuy - E-commerce Recommendation =========================
 with col2A:
     upper_col1, upper_col2 = st.columns([1, 2])
 
@@ -378,7 +740,7 @@ with col2A:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "EDA", "Recommender Systems", "Collaborative Filtering", "Content-Based Filtering", "Precision@10", "Machine Learning"]
+    skills = ["EDA", "Recommender Systems", "Collaborative Filtering", "Content-Based Filtering", "Precision@10", "Machine Learning"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
@@ -432,7 +794,7 @@ with col2B:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["R", "RShiny", "EDA", "Linear Regression", "Visualization", "Data Analysis", "Statistics", "Real Estate Analytics"]
+    skills = ["R", "RShiny", "EDA", "Visualization", "Statistics", "Real Estate Analytics"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
@@ -479,7 +841,7 @@ with col1A:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["Python", "Time-Series Forecasting", "LGBMRegressor", "MultiOutputRegressor", "MAE", "MAPE", "RMSE", "EDA"]
+    skills = ["Python", "Time-Series Forecasting", "LGBMRegressor", "MultiOutputRegressor", "EDA"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
@@ -531,7 +893,7 @@ with col1B:
 
     st.markdown("##### Skills & Technologies Used")
 
-    skills = ["R", "Inequality Indices", "Gini Index", "Theil Index", "Atkinson Index", "Statistics", "Research", "Data Analysis", "Latex", "PCA", "Linear Algebra"]
+    skills = ["R", "Inequality Indices", "Statistics", "Data Analysis", "Latex", "PCA", "Linear Algebra"]
     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
     for skill in skills:
         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"

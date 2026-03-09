@@ -1,11 +1,10 @@
-# 🧠 **Streamlit Portfolio Website with Agentic AI Assistant**
+# **Streamlit Portfolio Website with Agentic AI Assistant**
 
 ### **GitHub Repository:** [APortfolio](https://github.com/AyushmanGHub/APortfolio)  
 ### **Live Website:** [ayushmanportfolio.streamlit.app](https://ayushmanportfolio.streamlit.app/)
-
 ---
 
-## 🚀 **Project Overview**
+##  **Project Overview**
 
 This innovative project redefines the traditional personal portfolio by integrating an advanced **Agentic AI Assistant (ResAgent)**, transforming a static showcase into a dynamic, interactive experience. Going beyond typical fixed information, this website empowers visitors to engage directly with my profile, projects, and insights through a conversational AI.
 
@@ -15,7 +14,6 @@ This innovative project redefines the traditional personal portfolio by integrat
 * **Dynamic Content Delivery:** Leverages Large Language Models (LLMs) for intelligent responses and adaptive information retrieval.
 * **Enhanced User Experience:** Offers a personalized and efficient way for recruiters, collaborators, and curious visitors to explore my qualifications.
 
----
 
 ## 🎯 **Addressing the Challenge**
 
@@ -25,9 +23,8 @@ Traditional portfolio websites often present a passive experience, limiting visi
 * **Beyond Static Data:** The AI assistant can process complex queries, summarize information, and guide users through my portfolio's depth, offering a more engaging alternative to simple navigation.
 * **Scalable Knowledge Base:** Designed to easily integrate new information, allowing for future expansion and real-time updates without manual site redesigns for every minor change.
 
----
 
-## ✨ **Core Features & Technologies**
+## **Core Features & Technologies**
 
 The **Streamlit AI Portfolio** stands out by leveraging cutting-edge **Agentic AI** and robust development practices:
 
@@ -37,9 +34,8 @@ The **Streamlit AI Portfolio** stands out by leveraging cutting-edge **Agentic A
 * **Automated Content Presentation:** Features dynamic rendering of sections like certifications, projects, and a personal blog, ensuring fresh content presentation.
 * **Seamless Cloud Deployment:** Fully deployed and accessible via **Streamlit Cloud**, demonstrating practical, real-world application of the technologies.
 
----
 
-## 🛠️ **Skills & Technologies Demonstrated**
+## **Skills & Technologies Demonstrated**
 
 * **Programming Languages:** Python
 * **AI/ML Frameworks:** Google Gemini API, LangChain (LangGraph), Retrieval-Augmented Generation (RAG)
@@ -47,15 +43,3 @@ The **Streamlit AI Portfolio** stands out by leveraging cutting-edge **Agentic A
 * **Concepts:** Agentic AI, Large Language Models (LLMs)
 
 > 💡 *Dive into the GitHub repository to explore the codebase, understand the AI agent's architecture, and see the live deployment in action. This project serves as a practical demonstration of integrating AI into modern web applications.*
-
----
-
-## 🤝 **Let’s Connect!**
-
-I'm enthusiastic about connecting with fellow innovators, recruiters, and collaborators in the realms of **Agentic AI, LLM-powered applications, Streamlit development, and intelligent full-stack solutions.**
-
-If you're keen on exploring new ideas, discussing potential collaborations, or simply exchanging insights on cutting-edge AI advancements, please don't hesitate to reach out.
-
-Let's build, learn, and innovate together! 🚀
-
----

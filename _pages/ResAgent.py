@@ -1,28 +1,21 @@
 import time
-import asyncio
 import datetime
 import streamlit as st
-import nest_asyncio
 from google import generativeai as genai
 from streamlit_pills import pills
 import json
-
-nest_asyncio.apply()
 
 # --- Configure Gemini ---
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=GEMINI_API_KEY)
 llm_model = genai.GenerativeModel(model_name="gemini-2.5-flash")
 
-# --- Load Resume Segments ---
+# --- Load Resume Data ---
 @st.cache_data
-def load_resume_segments(file_path):
+def load_resume(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    segments = content.split("------------------------------------------------------------------------")
-    return [seg.strip() for seg in segments if seg.strip()]
-
-resume_text_blocks = load_resume_segments("resources/Resume_data.txt")
+        return f.read()
+resume_text = load_resume("resources/Resume_data.txt")
 
 # --- Load Common Questions and Answers ---
 COMMON_QUESTIONS_FILE = "resources/common_questions.json"
@@ -54,7 +47,7 @@ def get_recent_history(messages_list, max_tokens=8000):
         history.pop(0)
     return "\n\n".join(history)
 
-def build_prompt_parallel(segment, user_question, past_chat):
+def build_prompt(Resume_Data, user_question, past_chat):
     return f"""
 You are ResAgent — an AI assistant answering questions **only about Ayushman Anupam's resume and portfolio**.
 
@@ -62,16 +55,16 @@ You are ResAgent — an AI assistant answering questions **only about Ayushman A
 - Include dates, links, duration when available
 - Don't introduce yourself.
 - If off-topic, redirect to resume-related topics.
-- If answer is not in resume, say: "🔎 Warning - This question extends beyond Ayushman’s resume data."
-- Conclude with "✅ Final Answer"
+- If answer is not in Resume_Data, say: "🔎 Warning - This question extends beyond Ayushman's resume data." Never invent details
+- Conclude with sentences like "Do you want to know ..."
 
-Resume segments include:
+Resume_Data include:
 - **Projects**: name, date, summary, tech stack, links
 - **Internships**: role, org, duration, description, skills
 - **Education**: degree, institution, grades, subjects
 
-Resume Segment:
-{segment}
+Resume_Data:
+{Resume_Data}
 
 User Question:
 {user_question}
@@ -80,58 +73,14 @@ Relevant Past Chat:
 {past_chat}
 """
 
-async def parallel_answer_generation(user_query, resume_segments, chat_history):
+def generate_answer(user_query, resume_text, chat_history):
     past_chat = get_recent_history(chat_history)
-
-    async def process_segment(segment, index):
-        prompt = build_prompt_parallel(segment, user_query, past_chat)
-        try:
-            response = await asyncio.to_thread(llm_model.generate_content, prompt)
-            return response.text.strip()
-        except Exception as e:
-            return f"[Error in segment {index+1}]: {str(e)}"
-
-    tasks = [process_segment(seg, idx) for idx, seg in enumerate(resume_segments)]
-    all_responses = await asyncio.gather(*tasks)
-
-    seen = set()
-    cleaned_responses = []
-    for resp in all_responses:
-        if not resp:
-            continue
-        cleaned = resp.replace("\u2705 Final Answer", "").strip()
-        if cleaned and "🔎 Warning" not in cleaned and cleaned not in seen:
-            seen.add(cleaned)
-            cleaned_responses.append(cleaned)
-
-    if not cleaned_responses:
-        return (
-        "🔎 Warning - This question seems to extend beyond Ayushman's resume data.\n\n"
-        "If you have any queries related to Ayushman's education, projects, internships, skills, or achievements,\n"
-        "please feel free to ask — I'd be happy to help! 😊"
-    )
-    merge_prompt = f"""
-You are ResAgent — an AI assistant.
-
-Your task is to combine the following partial answers into **a single coherent, polished, non-redundant answer**. Use bullet points and paragraphs. Do not repeat points. Ensure readability and conciseness.
-
-User Question:
-{user_query}
-
-Partial Answers from Resume Segments:
-{chr(10).join(f"- {r}" for r in cleaned_responses)}
-
-Output a clean, final answer.
-After the answer, politely ask the user if they'd like to know anything else related to this question or any other aspect of Ayushman Anupam's resume or portfolio.
-End the answer with "✅ Final Answer".
-"""
+    prompt = build_prompt(resume_text, user_query, past_chat)
     try:
-        merged_response = await asyncio.to_thread(llm_model.generate_content, merge_prompt)
-        final_answer = merged_response.text.strip().replace("\u2705 Final Answer", "").strip()
-        return final_answer
+        response = llm_model.generate_content(prompt)
+        return response.text.strip()
     except Exception as e:
-        return f"⚠️ Failed to merge responses. Error: {str(e)}"
-
+        return f"⚠️ Error generating response - facing some difficulty: {str(e)}"
 # --- Streamlit UI ---
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -145,6 +94,7 @@ if "last_user_question" not in st.session_state: # <-- THIS LINE IS CRUCIAL
 if not st.session_state.messages:
     greeting = "Greetings, Human! 👋 I'm ResAgent, an AI trained to answer questions about **Ayushman's** resume and portfolio. Curious about his projects, skills, or anything else? Just ask! 😉"
     st.session_state.messages.append({"role": "assistant", "content": greeting})
+
 
 st.title("👨‍💼 Welcome to My Smart Portfolio")
 
@@ -222,8 +172,7 @@ common_question =[
     "tell me about his lastest work Experience?",
     "tell me about his education",
     "Tell me about his volunteerings",
-    "How to contact him?",
-    "tellme about 'Streamlit Portfolio Website with Agentic AI Assistant' project?"
+    "How to contact him?"
 
 ]
 
@@ -234,6 +183,7 @@ if not st.session_state.pills_used and not any(m["role"] == "user" for m in st.s
         st.session_state.pills_used = True
         st.session_state.pill_query = selected_pill
         st.rerun()
+
 
 chat_input_text = st.chat_input("Ask me anything about Ayushman...")
 start_time = time.time()
@@ -270,22 +220,27 @@ if user_prompt:
             st.markdown(f"**⚡️ Quick Answer from Pre-loaded Cache! in {total_time} seconds **\n\n{answer_from_json}")
         st.session_state.messages.append({
             "role": "assistant",
-            "content": f"**⚡️ Quick Answer from Pre-loaded Cache! in {total_time} seconds **\n\n{answer_from_json}"
+            "content": answer_from_json
         })
     else:
         
-        with st.spinner("ResAgent..🔍 Please wait,  I run on open-source tools, so I am slower than big guys!"):
-            answer = asyncio.run(parallel_answer_generation(user_prompt, resume_text_blocks, st.session_state.messages))
+        with st.spinner("ResAgent..🔍 Please wait, I run on open-source tools, so I am slower than big guys!"):
+            answer = generate_answer(
+                            user_prompt,
+                            resume_text,
+                            st.session_state.messages
+                        )
 
         end_time = time.time()
         total_time = round(end_time - start_time, 2)
 
         with st.chat_message("assistant"):
-            st.markdown(f"🕒 Processed in {total_time} seconds\n\n{answer}")
+            st.markdown(answer)
+            st.caption(f"🕒 {total_time}s")
 
         st.session_state.messages.append({
             "role": "assistant",
-            "content": f"🕒 Processed in {total_time} seconds\n\n{answer}"
+            "content": answer
         })
 
         if "🔎 Warning" not in answer:

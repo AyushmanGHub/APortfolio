@@ -1,14 +1,4 @@
 streamlit==1.45.1
 streamlit_option_menu
 streamlit-pills
-langchain
-langchain-community
-langchain-huggingface
-faiss-cpu
-huggingface-hub
-sentence-transformers
 google-generativeai
-nest_asyncio
-aiohttp
-bs4
-requests
