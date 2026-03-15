@@ -21,7 +21,7 @@ Skills:
 • Machine Learning: Supervised Learning (Regression, Classification), Unsupervised Learning (Clustering), Recommendation Systems, Feature Engineering, Model Evaluation & Optimization
 • Deep Learning: Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), PyTorch, TensorFlow
 • MLOps & ML Systems: DVC (Data Version Control), MLflow, Model Deployment, Experiment Tracking, Flask, Docker
-• Data Analytics & Visualization: Exploratory Data Analysis (EDA), Statistical Analysis, Data Visualization, Pandas, Plotly, Tableau, Power BI
+• Data Analytics & Visualization: Exploratory Data Analysis (EDA), Statistical Analysis, Data Visualization, Pandas, Plotly
 • Tools & Platforms: Jupyter Notebook, Git & GitHub, Streamlit, R-Shiny, Microsoft Office (Excel, Word, PowerPoint)
 • Core Competencies: Data Analysis, Predictive Modeling, Quantitative Research, Statistical Inference, Problem Solving
 
@@ -153,20 +153,17 @@ Engaged in bloodcare initiatives, focusing on creating a sustainable blood donat
 
 ------------------------------------------------------------------------
 
-Project: "Z-Score Alpha – Statistical Arbitrage Strategy"
-Date: March 2026 - Present
+Project: "Spread Z-Score – Statistical Arbitrage Strategy"
+Date: Feburary 2026 - March 2026
 
 About Project:
-Developing a quantitative trading research project focused on statistical arbitrage using Z-score based signals derived from financial time series data. 
-The project aims to identify short-term mean-reversion opportunities in market prices by standardizing price deviations from historical behavior and generating trading signals based on statistical thresholds.
-
-The workflow includes data understanding, financial time-series preprocessing, signal generation, and backtesting of the strategy to evaluate performance under different market conditions. 
-The project emphasizes building a clean and reproducible data pipeline along with analytical tools for exploring statistical patterns in asset price movements.
+Developed a quantitative trading research project focused on statistical arbitrage using the implied volatility spread between BankNifty and Nifty options. The project identifies temporary deviations in the volatility relationship between the two indices and exploits them using a Z-score based mean-reversion strategy.
+Backtesting results show that the Z-score strategy significantly outperforms a baseline spread strategy, Under realistic conditions with 1-minute execution latency, achieved a 5× improvement in profitability over the baseline strategy (PnL: 24 → 115, Sharpe: 1.73 → 5.07), demonstrating stable risk-adjusted returns.
 
 Skills and Technologies used:
-Quantitative Finance, Statistical Arbitrage, Z-Score Analysis, Time Series Analysis, Data Cleaning, Financial Data Processing
+Python, Quantitative Finance, Statistical Arbitrage, Z-Score Analysis, Mean Reversion Strategies, Time Series Analysis, Financial Data Processing, Strategy Backtesting, Data Visualization
 
-Github Link: https://github.com/AyushmanGHub/Z-Score_Alpha-Statistical_Arbitrage_Strategy
+Github Link: https://github.com/AyushmanGHub/Spread_Z-Score_-_Statistical_Arbitrage_Strategy
 
 -------
 
@@ -281,7 +278,7 @@ The core of LectureAI is its agentic AI chatbot, which operates on lecture conte
 Skills and Technologies used:
 Python, DJango, LangChain, LangGraph, RAG, LLM and API, AI Agents and Agentic AI, HTML, CSS
 
-Github Link: https://github.com/AyushmanGHub/LectureAI-Agentic-AI_freamework
+Github Link: https://github.com/AyushmanGHub/LectureAI-Agentic-AI_framework
 
 -----
 

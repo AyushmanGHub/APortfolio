@@ -22,22 +22,82 @@ st.markdown("")
 st.markdown("")
 ###################################################################################################
 
-col_working, _ = st.columns([3,1])
+# col_working, _ = st.columns([3,1])
 
-# ========================= Project: Z-Score Alpha =========================
-with col_working:
+# # ========================= Project: Z-Score Alpha =========================
+# with col_working:
+#     upper_col1, upper_col2 = st.columns([1, 2])
+
+#     with upper_col1:
+#         st.markdown(" ")
+#         st.markdown(" ")
+#         st.image(r"images/zscorealpha.webp", use_container_width=True, caption="Z-Score Alpha – Statistical Arbitrage Strategy")
+
+#     with upper_col2:
+#         st.markdown("### Z-Score Alpha – Statistical Arbitrage Strategy")
+#         st.markdown("📅 **March 2026 - Present**")
+
+#         github_link = "https://github.com/AyushmanGHub/Z-Score_Alpha-Statistical_Arbitrage_Strategy"
+
+#         github_html = f"""
+#         <div style='display: inline-block; margin-right: 10px;'>
+#             <a href="{github_link}" target="_blank">
+#                 <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo</button>
+#             </a>
+#         </div>
+#         """
+
+#         st.markdown(github_html, unsafe_allow_html=True)
+
+#     st.markdown("#### About the Project")
+#     st.markdown("""
+#     Developing a quantitative trading research project focused on statistical arbitrage using Z-score based signals derived from financial time series data. 
+#     The project aims to identify short-term mean-reversion opportunities by standardizing price deviations from historical behavior and generating trading signals based on statistical thresholds.
+
+#     The workflow includes data understanding, financial time-series preprocessing, signal generation, and backtesting of the strategy to evaluate performance under different market conditions. 
+#     The project emphasizes building a clean and reproducible data pipeline along with analytical tools for exploring statistical patterns in asset price movements.
+#     """)
+
+#     st.markdown("##### Skills & Technologies Used")
+
+#     skills = [
+#         "Quantitative Finance",
+#         "Statistical Arbitrage",
+#         "Z-Score Analysis",
+#         "Time Series Analysis",
+#         "Data Cleaning",
+#         "Financial Data Processing"
+#     ]
+
+#     badges_html = "<div style='display: flex; flex-wrap: wrap;'>"
+#     for skill in skills:
+#         badges_html += f"<span style='background-color:#4CAF50; color:white; padding:4px 8px; margin:5px; border-radius:5px;'>{skill}</span>"
+#     badges_html += "</div>"
+
+#     st.markdown(badges_html, unsafe_allow_html=True)
+
+# st.markdown("---")
+
+
+
+###################################################################################################
+
+col9A, col9B = st.columns(2)
+
+# ========================= Project 01: Spread Z-Score – Statistical Arbitrage =========================
+with col9A:
     upper_col1, upper_col2 = st.columns([1, 2])
 
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/zscorealpha.webp", use_container_width=True, caption="Z-Score Alpha – Statistical Arbitrage Strategy")
+        st.image(r"images/zscorealpha.webp", use_container_width=True, caption="Spread Z-Score – Statistical Arbitrage Strategy")
 
     with upper_col2:
-        st.markdown("### Z-Score Alpha – Statistical Arbitrage Strategy")
-        st.markdown("📅 **March 2026 - Present**")
+        st.markdown("### Spread Z-Score - Statistical Arbitrage Strategy")
+        st.markdown("📅 **Feb 2026 - March 2026**")
 
-        github_link = "https://github.com/AyushmanGHub/Z-Score_Alpha-Statistical_Arbitrage_Strategy"
+        github_link = "https://github.com/AyushmanGHub/Spread_Z-Score_-_Statistical_Arbitrage_Strategy"
 
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
@@ -51,11 +111,10 @@ with col_working:
 
     st.markdown("#### About the Project")
     st.markdown("""
-    Developing a quantitative trading research project focused on statistical arbitrage using Z-score based signals derived from financial time series data. 
-    The project aims to identify short-term mean-reversion opportunities by standardizing price deviations from historical behavior and generating trading signals based on statistical thresholds.
+    Developed a quantitative trading  project focused on statistical arbitrage using the implied volatility spread between BankNifty and Nifty options. The project identifies temporary deviations in the volatility relationship between the two indices and exploits them using a Z-score based mean-reversion strategy.
 
-    The workflow includes data understanding, financial time-series preprocessing, signal generation, and backtesting of the strategy to evaluate performance under different market conditions. 
-    The project emphasizes building a clean and reproducible data pipeline along with analytical tools for exploring statistical patterns in asset price movements.
+    Backtesting results show that the Z-score strategy significantly outperforms a baseline spread strategy. 
+    Under realistic conditions with **1-minute execution latency**, the strategy achieves a **~5× improvement in profitability over the baseline strategy**  *(PnL: 24 → 115, Sharpe: 1.73 → 5.07)*, demonstrating strong and stable **risk-adjusted returns**.
     """)
 
     st.markdown("##### Skills & Technologies Used")
@@ -64,8 +123,8 @@ with col_working:
         "Quantitative Finance",
         "Statistical Arbitrage",
         "Z-Score Analysis",
+        "Mean Reversion Strategies",
         "Time Series Analysis",
-        "Data Cleaning",
         "Financial Data Processing"
     ]
 
@@ -76,16 +135,9 @@ with col_working:
 
     st.markdown(badges_html, unsafe_allow_html=True)
 
-st.markdown("---")
 
-
-
-###################################################################################################
-
-col9A, col9B = st.columns(2)
-
-# ========================= Project: Minimum Variance Portfolio Optimization =========================
-with col9A:
+# ========================= Project 02: Minimum Variance Portfolio Optimization =========================
+with col9B:
     upper_col1, upper_col2 = st.columns([1, 2])
 
     with upper_col1:
@@ -133,14 +185,8 @@ with col9A:
 
     st.markdown(badges_html, unsafe_allow_html=True)
 
-# ========================= Project 02: =========================
-with col9B:
-    st.markdown("")
-
-
-
-
 st.markdown("---")
+
 
 ####################################################################################################
 
@@ -397,7 +443,7 @@ with col6A:
         st.markdown("### LectureAI – Your personal AI Tutor")
         st.markdown("📅 **May 2025 - July 2025**")
 
-        github_link = "https://github.com/AyushmanGHub/LectureAI-Agentic-AI_freamework"  # Add your repo link
+        github_link = "https://github.com/AyushmanGHub/LectureAI-Agentic-AI_framework"  # Add your repo link
 
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
