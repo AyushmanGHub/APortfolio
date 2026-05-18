@@ -114,7 +114,7 @@ st.markdown("---")
 st.markdown("""
 <div style="font-size: 18px; text-align: justify;">
             
-Hi, I'm <b>Ayushman Anupam</b>, a Data Science student who loves working with data. I enjoy building data-driven systems and exploring how mathematics, statistics, and AI can be used to solve real-world problems.
+Hi, I'm <b>Ayushman Anupam</b>, a Data Scientist who loves working with data. I enjoy building data-driven systems and exploring how mathematics, statistics, and AI can be used to solve real-world problems.
 
 My academic background in mathematics has naturally led me toward areas such as <b>Machine Learning, Statistical Modeling, Graph Theory, and Agentic AI systems</b>. I am particularly interested in designing intelligent systems that can transform complex data into meaningful insights and practical applications.
 

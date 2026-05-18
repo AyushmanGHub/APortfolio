@@ -44,7 +44,6 @@ with st.container():
         Python, Probability and Statistics with R, Mathematical Analysis, Data Visualization, Linear Algebra, Algorithm Design and Analysis, Data Mining and Machine Learning.
         """
         , unsafe_allow_html=True)
-st.markdown("---")
 
 # --- Indian Statistical Institute ---
 with st.container():
@@ -67,22 +66,3 @@ with st.container():
         Probability, Statistics, R, Graph Theory, Optimization, Economics, Linear Algebra, Design and Analysis of Algorithms, Graph and Matrices.
         """
         , unsafe_allow_html=True)
-st.markdown("---")
-
-# --- Vidya Bharati Chinmaya Vidyalaya and Shiksha Niketan Side by Side ---
-with st.container():
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.warning("Vidya Bharati Chinmaya Vidyalaya")
-        st.markdown("""
-        **Intermediate Arts, Pure Science (PCM)**  
-        Telco, Jamshedpur, India | *(2018 - 2020)*
-        """)
-
-    with col2:
-        st.error("Shiksha Niketan School")
-        st.markdown("""
-        **Matriculation**  
-        Jamshedpur, India | *(2018)*
-        """)

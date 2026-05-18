@@ -19,20 +19,31 @@ def get_sidebar_social_links():
     return """
     <div style='text-align: center;'>
         <a href='https://www.linkedin.com/in/ayushman-anupam' target='_blank'>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' width='40'>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' width='35'>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href='https://github.com/AyushmanGHub' target='_blank'>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='40'>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg' width='35'>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href='mailto:ayushmantutu@gmail.com'>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png' width='40'>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png' width='35'>
         </a>
     </div>
-    <div style='text-align: center; margin-top: 20px;'>
+
+    <!-- Portfolio Website Button -->
+    <div style='text-align: center; margin-top: 10px;'>
+        <a href='https://ayushmanghub.github.io/' target='_blank'>
+            <button style='background-color: #007BFF; color: white; padding: 7px 20px; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; width: 220px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: 0.3s;'>
+                🌐 Visit My Website
+            </button>
+        </a>
+    </div>
+
+    <!-- Resume Button -->
+    <div style='text-align: center; margin-top: 10px;'>
         <a href='https://drive.google.com/file/d/13fhhQG4FL9JnFIW3oZwbtJI0Yd4BzzF7/view?usp=drive_link' target='_blank'>
-            <button style='background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: 0.3s;'>
+            <button style='background-color: #4CAF50; color: white; padding: 7px 20px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 180px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: 0.3s;'>
                 📄 My Resume
             </button>
         </a>
@@ -89,9 +100,9 @@ with st.sidebar:
         default_index=1,
         styles={
             "container": {"padding": "0!important", "background-color": "#0D1117"},
-            "icon": {"color": "darkorange", "font-size": "20px"},
+            "icon": {"color": "darkorange", "font-size": "18px"},
             "nav-link": {
-                "font-size": "17px",
+                "font-size": "18px",
                 "text-align": "left",
                 "margin": "0px",
                 "--hover-color": "#1F2937",

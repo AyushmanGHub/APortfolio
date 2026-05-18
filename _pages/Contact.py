@@ -153,10 +153,9 @@ st.markdown("""
 </div>
 
 <div style='text-align: center; font-size: 18px; margin-top: 30px;'>
-    🤝 <b>Let's collaborate and grow together!</b><br><br>
+    🤝 <b>Let's collaborate and grow together!</b><br>
     I am passionate about <b>continuous learning</b>, <b>collaboration</b>, and applying <b>data science & AI</b> for real-world impact.
-    Whether you're interested in data-driven projects, machine learning applications, or simply exchanging ideas — feel free to reach out.<br><br>
-    💡 <i>Together, let's learn, build, and create impact.</i> 
+    Whether you're interested in data-driven projects, machine learning applications, or simply exchanging ideas — feel free to reach out.<br>
 </div>
 """, unsafe_allow_html=True)
 
