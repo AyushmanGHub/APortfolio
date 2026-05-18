@@ -15,7 +15,7 @@ This innovative project redefines the traditional personal portfolio by integrat
 * **Enhanced User Experience:** Offers a personalized and efficient way for recruiters, collaborators, and curious visitors to explore my qualifications.
 
 
-## 🎯 **Addressing the Challenge**
+## **Addressing the Challenge**
 
 Traditional portfolio websites often present a passive experience, limiting visitors to fixed pages of information. This project tackles that limitation by injecting **LLM-powered conversational AI** directly into the core, offering:
 
@@ -33,13 +33,5 @@ The **Streamlit AI Portfolio** stands out by leveraging cutting-edge **Agentic A
 * **High-Performance LLM Integration:** Powered by **Google Gemini API** for fast, scalable, and intelligent large language model responses.
 * **Automated Content Presentation:** Features dynamic rendering of sections like certifications, projects, and a personal blog, ensuring fresh content presentation.
 * **Seamless Cloud Deployment:** Fully deployed and accessible via **Streamlit Cloud**, demonstrating practical, real-world application of the technologies.
-
-
-## **Skills & Technologies Demonstrated**
-
-* **Programming Languages:** Python
-* **AI/ML Frameworks:** Google Gemini API, LangChain (LangGraph), Retrieval-Augmented Generation (RAG)
-* **Web Frameworks/Tools:** Streamlit, HTML & CSS
-* **Concepts:** Agentic AI, Large Language Models (LLMs)
 
 > 💡 *Dive into the GitHub repository to explore the codebase, understand the AI agent's architecture, and see the live deployment in action. This project serves as a practical demonstration of integrating AI into modern web applications.*
