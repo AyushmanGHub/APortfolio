@@ -96,7 +96,7 @@ with col_LectureAI:
     with upper_col1:
         st.markdown(" ")
         st.markdown(" ")
-        st.image(r"images/lectureai.webp", use_container_width=True, caption="LectureAI – Personal Lecture Assistant")
+        st.image(r"images/lectureai_assistant.webp", use_container_width=True, caption="LectureAI – Personal Lecture Assistant")
 
     with upper_col2:
         st.markdown("### LectureAI – Personal Lecture Assistant")
