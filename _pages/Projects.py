@@ -37,7 +37,7 @@ with col_working:
         st.markdown("### Causality Detection in High-Dimensional Time Series")
         st.markdown("📅 **May 2026 - Present**")
 
-        github_link = "#"
+        github_link = "https://github.com/AyushmanGHub/Causality_Detection_in_High-Dimensional_Time_Series"
 
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
