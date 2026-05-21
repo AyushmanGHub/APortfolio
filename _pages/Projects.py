@@ -42,7 +42,7 @@ with col_working:
         github_html = f"""
         <div style='display: inline-block; margin-right: 10px;'>
             <a href="{github_link}" target="_blank">
-                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>Repository Coming Soon</button>
+                <button style='background-color:#24292e; color:white; padding:7px 13px; border:none; border-radius:5px; font-weight:bold; cursor:pointer;'>GitHub Repo (Still in Progress)</button>
             </a>
         </div>
         """
